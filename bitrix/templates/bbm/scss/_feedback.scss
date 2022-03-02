@@ -1,0 +1,227 @@
+.feedback {
+   margin-top: 19rem;
+   position: relative;
+   &__inner {
+      padding-top: 10.5rem;
+      padding-bottom: 19.3rem;
+      width: 38%;
+   }
+      &__text {
+         margin-bottom: 6.3rem;
+         position: relative;
+         &-title {
+            font-weight: 600;
+            font-size: 5rem;
+            line-height: 110%;
+            color: $black;
+            margin-bottom: 3rem;
+         }
+         &-txt {
+            font-size: 2.2rem;
+            line-height: 133%;
+         }
+      }
+      &__text::after {
+         position: absolute;
+         content: '';
+         left: 0rem;
+         bottom: -3.5rem;
+         width: 28rem;
+         height: 0.2rem;
+         background-color: #e4e4e4;
+      }
+      &__contacts {
+         color: #333333;
+         &-title {
+            font-weight: 600;
+            font-size: 3.5rem;
+            line-height: 110%;
+            color: $black;
+            margin-bottom: 2.1rem;
+         }
+         &-group {
+            margin-bottom: 1.6rem;
+            &-subtitle {
+               font-size: 1.6rem;
+               margin-bottom: 0.6rem;
+            }
+            &-subtitle1 {
+               margin-bottom: 0.2rem;
+            }
+            &-name {
+               font-size: 1.7rem;
+               font-weight: 600;
+               display: block;
+            }
+         }
+      }
+      &__right {
+         display: flex;
+         width: 50%;
+         position: absolute;
+         background-color: #272727;
+         top: -4rem;
+         right: 0rem;
+         &-text,
+         &-title {
+            display: none;
+         }
+         &-form {
+            padding: 5.8rem 5rem 4rem 4.8rem;
+            width: 52%;
+            &-label {
+               display: inline-block;
+               margin-bottom: 4.3rem;
+               width: 100%;
+            }
+            &-input {
+               font-size: 1.8rem;
+               line-height: 130%;
+               color: $white;
+               width: 100%;
+               background-color: transparent;
+               border: none;
+               outline: none;
+               border-bottom: 1px solid #989898;
+               height: 4rem;
+            }
+            &-input::placeholder,
+            &-textarea::placeholder {
+               color: #aaaaaa;
+            }
+            &-textarea {
+               font-size: 1.8rem;
+               line-height: 130%;
+               color: $white;
+               width: 100%;
+               background-color: transparent;
+               border: none;
+               outline: none;
+               border-bottom: 1px solid #989898;
+               margin-bottom: 4.3rem;
+               height: 12.3rem;
+               margin-top: 1rem;
+               resize: none;
+            }
+            &-btn {
+               margin-top: -3.5rem;
+               display: block;
+               margin-left: auto;
+            }
+         }
+         &-img {
+            width: 46rem;
+            height: 61.6rem;
+            margin-left: -0.1rem;
+            & img {
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+            }
+         }
+      }
+}
+.feedback::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0rem;
+   background-color: $white;
+   height: 100%;
+   width: 70.3%;
+   z-index: -1;
+}
+
+@media (max-width: 48em) {
+   .feedback {
+      margin-top: 8.5rem;
+      &__right {
+         position: relative;
+         top: 0;
+         display: block;
+         width: 100%;
+         padding-top: 7.8rem;
+         &-title {
+            display: block;
+            font-weight: 600;
+            font-size: 6rem;
+            line-height: 110%;
+            color: $white;
+            padding-left: 3.5rem;
+            margin-bottom: 4rem;
+         }
+         &-text {
+            display: block;
+            font-size: 3.2rem;
+            line-height: 135%;
+            color: $white;
+            padding-left: 3.5rem;
+            width: 90%;
+            margin-bottom: 2.2rem;
+         }
+         &-form {
+            width: 100%;
+            padding-left: 3rem;
+            padding-right: 3.3rem;
+            padding-bottom: 8rem;
+            &-label {
+               margin-bottom: 6rem;
+            }
+            &-input {
+               font-size: 3rem;
+               height: 5rem;
+            }
+            &-textarea {
+               font-size: 3rem;
+               margin-top: 0.5rem;
+               height: 16.3rem;
+            }
+            &-btn {
+               margin-top: -2.5rem;
+               margin-left: 0rem;
+            }
+         }
+         &-img {
+            width: 100%;
+            height: 51rem;
+         }
+      }
+      &__right.feedback__right--about {
+         padding-top: 12.1rem;
+      }
+      &__inner {
+         width: 100%;
+         padding-top: 8rem;
+         padding-bottom: 5rem;
+      }
+      &__text {
+         display: none;
+      }
+      &__contacts {
+         &-title {
+            font-size: 4.8rem;
+            margin-bottom: 4.1rem;
+         }
+         &-group {
+            margin-left: -0.1rem;
+            margin-bottom: 3.7rem;
+            &-subtitle {
+               font-size: 3rem;
+               margin-bottom: 1.5rem;
+            }
+            &-subtitle1 {
+               margin-bottom: 0rem;
+            }
+            &-name {
+               font-size: 3.2rem;
+            }
+         }
+      }
+   }
+   .feedback::before {
+      top: unset;
+      bottom: 0;
+      width: 100%;
+      height: 65rem;
+   }
+}

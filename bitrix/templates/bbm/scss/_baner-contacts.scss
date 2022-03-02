@@ -1,0 +1,296 @@
+.baner-contacts {
+   position: relative;
+   padding-top: 11.5rem;
+   padding-bottom: 8.5rem;
+   &__inner {
+      position: relative;
+   }
+   &__inner::after {
+      position: absolute;
+      content: '';
+      left: 29.5%;
+      top: -10rem;
+      width: 1.5px;
+      height: 160%;
+      background-color: #e4e4e4;
+      z-index: -1;
+   }
+   &__left {
+      width: 26%;
+      margin-top: 10rem;
+      &-title {
+         margin-bottom: 5.2rem;
+         font-weight: 600;
+         font-size: 3.5rem;
+         line-height: 110%;
+         color: $white;
+      }
+      &-list {
+         margin-bottom: 22.4rem;
+         & li {
+            margin-bottom: 3rem;
+            font-size: 2.2rem;
+            line-height: 130%;
+            color: $white;
+            cursor: pointer;
+         }
+         & li:last-child {
+            margin-bottom: 0;
+         }
+         & li.tabs__btn--active {
+            color: #2A83E8;
+         }
+      }
+      &-text {
+         font-size: 1.6rem;
+         line-height: 115%;
+         color: $white;
+         width: 60%;
+      }
+   }
+   &__right {
+      width: 63.3%;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      top: 11.5rem;
+      right: 0rem;
+      &-info {
+         width: 43%;
+         margin-top: 10.2rem;
+         &-title {
+            margin-bottom: 6.4rem;
+            font-weight: 700;
+            font-size: 6.5rem;
+            line-height: 110%;
+         }
+         &-items {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+         }
+         &-item {
+            width: 47.8%;
+            position: relative;
+            padding-left: 4.5rem;
+            margin-bottom: 3.8rem;
+            &-img {
+               position: absolute;
+               left: 0rem;
+               top: 0rem;
+            }
+            &-img1 {
+               width: 1.87rem;
+               height: 3rem;
+               left: 0.5rem;
+            }
+            &-img2 {
+               width: 2.6rem;
+               height: 2.6rem;
+               top: -0.3rem;
+               left: 0.5rem;
+            }
+            &-img3 {
+               width: 2.6rem;
+               height: 2rem;
+               left: 0.1rem;
+               top: 0.2rem;
+            }
+            &-img4 {
+               width: 2.63rem;
+               height: 3rem;
+               left: 0.5rem;
+            }
+            &-title {
+               font-weight: 600;
+               font-size: 1.8rem;
+               line-height: 128%;
+               color: #333333;
+               margin-bottom: 1.1rem;
+            }
+            &-text {
+               font-size: 1.7rem;
+               line-height: 140%;
+               color: #313131;
+               display: block;
+            }
+            &-text2 {
+               font-size: 1.6rem;
+            }
+            &-text4 {
+               margin-top: 1.4rem;
+            }
+         }
+      }
+      &-maps {
+         width: 49%;
+         height: 67.9rem;
+         & #contloc {
+            width: 100%;
+            height: 100%;
+         }
+      }
+   }
+   &__nav {
+      bottom: 13.4rem;
+      &-text {
+         color: $white;
+      }
+   }
+   &__nav::after {
+      background-color: $white;
+   }
+}
+.baner-contacts::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 31.3%;
+   height: 100%;
+   background-color: #272727;
+   z-index: -1;
+}
+.baner-contacts::before {
+   position: absolute;
+   content: '';
+   left: 0;
+   top: 11.5rem;
+   width: 100%;
+   height: 1.5px;
+   background-color: #e4e4e4;
+   z-index: -1;
+}
+.tabs {
+   &__content {
+      display: none;
+   }
+   &__content--active {
+      display: flex;
+   }
+}
+
+
+@media (max-width: 48em) {
+   .baner-contacts {
+      overflow: hidden;
+      padding-top: 15.5rem;
+      padding-bottom: 0;
+      &__inner::after {
+         content: none;
+      }
+      &__nav {
+         display: none;
+      }
+      &__left {
+         width: 100%;
+         &-title {
+            font-size: 6rem;
+            margin-bottom: 4.2rem;
+            margin-left: -0.3rem;
+         }
+         &-list {
+            margin-bottom: 5rem;
+         }
+         &-list li {
+            font-size: 3.2rem;
+            margin-bottom: 4.1rem;
+            margin-left: -0.2rem;
+         }
+         &-text {
+            font-size: 3.6rem;
+            width: 75%;
+            margin-left: -0.2rem;
+            line-height: 120%;
+         }
+      }
+      &__right {
+         position: relative;
+         width: 100%;
+         margin-top: 16rem;
+         top: 0;
+         &-info {
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 4rem;
+            margin-left: 3.2rem;
+            &-title {
+               font-size: 6rem;
+               margin-bottom: 4.7rem;
+            }
+            &-item {
+               width: 90%;
+               padding-left: 8.5rem;
+               padding-right: 5rem;
+               margin-bottom: 4.6rem;
+               &-img {
+
+               }
+               &-img1 {
+                 width: 3.75rem; 
+                 height: 6rem;
+                 top: -0.3rem;
+               }
+               &-img2 {
+                  width: 5.2rem; 
+                  height: 5.2rem; 
+                  top: -1rem;
+                  left: 0.5rem; 
+               }
+               &-img3 {
+                  width: 5.25rem; 
+                  height: 4rem;
+                  left: 0.5rem;
+                  top: 0.6rem;
+               }
+               &-img4 {
+                  width: 5.25rem; 
+                  height: 6rem;  
+                  left: 0.9rem;
+                  top: -0.4rem;
+               }
+               &-title {
+                  font-size: 3.2rem;
+               }
+               &-text {
+                  font-size: 3rem;
+               }
+               &-text2 {
+                  line-height: 147%;
+               }
+               &-text4 {
+                  line-height: 154%;
+               }
+            }
+            &-item:last-child {
+               margin-top: 1.3rem;
+               padding-left: 8.7rem;
+            }
+
+         }
+         &-items {
+            display: block;
+         }
+         &-maps {
+            width: 100%;
+            height: 77.1rem;
+         }
+      }
+      
+   }
+   .baner-contacts::after {
+      width: 100%;
+      height: 77.5rem;
+   }
+   .baner-contacts::before {
+      content: none;
+   }
+   .tabs {
+      &__content {
+         display: none;
+      }
+      &__content--active {
+         display: block;
+      }
+   }
+}

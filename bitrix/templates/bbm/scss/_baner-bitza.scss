@@ -1,0 +1,230 @@
+.baner-bitza {
+   position: relative;
+   min-height: 78rem;
+   margin-top: 12rem;
+   background-color: $white;
+   &__nav {
+      margin-bottom: 6.5rem;
+   }
+   &__img {
+      width: 132.5rem;
+      height: 66rem;
+      position: absolute;
+      right: 0;
+      top: 0;
+      & img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+      }
+   }
+   &__img-btn {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 28.9rem;
+      height: 31.5em;
+      z-index: 2;
+      &-img {
+         width: 100%;
+         height: 100%;
+         & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+      }
+      &-btn {
+         width: 12rem;
+         height: 12rem;
+         position: absolute;
+         bottom: 0;
+         right: 0;
+         background-color: $white;
+      }
+      &-btn::after {
+         position: absolute;
+         content: '';
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%,-50%);
+         width: 3.3rem;
+         height: 3.3rem;
+         background-image: url('../img/icons/bitza-arrow.svg');
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: center;
+      }
+   }
+   &__inner {
+      padding-top: 11.5rem;
+      position: relative;
+   }
+   &__inner::after {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 1px;
+      height: 250rem;
+      background-color: rgba(187, 187, 187, 0.5);
+   }
+   &__inner::before {
+      position: absolute;
+      content: '';
+      right: 0;
+      top: 0;
+      width: 1px;
+      height: 250rem;
+      background-color: rgba(187, 187, 187, 0.5);
+      z-index: -1;
+   }
+   &__info {
+      width: 38.6%;
+      background-color: $white;
+      padding: 8rem 2rem 8rem 5rem;
+      position: relative;
+      &-title {
+         font-weight: 700;
+         font-size: 6.5rem;
+         line-height: 110%;
+         margin-bottom: 3.4rem;
+      }
+      &-text {
+         font-size: 2.2rem;
+         line-height: 130%;
+         margin-bottom: 5rem;
+         margin-left: 0.8rem;
+      }
+   }
+   &__bottom {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: 1;
+      &-wrap {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         background-color: #272727;
+         padding: 4.5rem 13.8rem 4.5rem 4rem;
+      }
+      &-text {
+         font-size: 1.6rem;
+         line-height: 120%;
+         color: $white;
+      }
+      &-messangers {
+         display: flex;
+         align-items: center;
+         &-whatsapp {
+            width: 3rem;
+            height: 3rem;
+            margin-right: 5rem;
+            & img {
+               width: 100%;
+               height: 100%;
+               object-fit: contain;
+            }
+         }
+         &-telegram {
+            width: 3rem;
+            height: 2.5rem;
+            & img {
+               width: 100%;
+               height: 100%;
+               object-fit: contain;
+            }
+         }
+      }
+   }
+}
+
+.baner-bitza::after {
+   position: absolute;
+   content: '';
+   left: 0;
+   top: 1px;
+   width: 100%;
+   height: 1px;
+   background-color: rgba(187, 187, 187, 0.5);
+}
+
+
+@media (max-width: 48em) {
+   .baner-bitza {
+      margin-top: 0;
+      height: 163.5rem;
+      &__img {
+         width: 100%;
+         height: 59rem;
+         top: 45rem;
+         z-index: 3;
+      }
+      &__img-btn {
+         bottom: 0rem;
+         width: 42rem;
+         height: 45.7rem;
+         right: 3.2rem;
+         &-btn {
+            width: 16.2rem;
+            height: 16.3rem;
+            right: 0;
+            bottom: 0;
+         }
+         &-btn::after {
+            width: 6.6rem;
+            height: 6.6rem;
+            left: 49%;
+            top: 47%;
+         }
+      }
+      &__inner {
+         padding-top: 17rem;
+         z-index: 6;
+      }
+      &__inner::after,
+      &__inner::before {
+         content: none;
+      }
+      &__info {
+         width: 100%;
+         padding: 13.8rem 2rem 4rem 4.5rem;
+         &-title {
+            font-size: 6rem;
+            margin-bottom: 5.3rem;
+         }
+         &-text {
+            margin-left: 0;
+            margin-bottom: 4rem;
+            font-size: 3.2rem;
+            line-height: 135%;
+         }
+      }
+      &__bottom {
+         position: relative;
+         bottom: -28.4rem;
+         width: 58.5%;
+         height: 61.5rem;
+         background-color: #272727;
+         z-index: 1;
+         &-wrap {
+            margin-left: -3.2rem;
+            padding: 10rem 7.8rem 4.5rem 4.5rem;
+         }
+         &-text {
+            font-size: 3rem;
+         }
+         &-messangers {
+            display: none;
+         }
+      }
+      &__nav {
+         margin-bottom: 1.4rem;
+      }
+   }
+   .baner-bitza::after {
+      content: none;
+   }
+}
