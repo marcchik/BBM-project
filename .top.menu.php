@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		"/",
+		Array(), 
+		Array("IMG"=>"/bitrix/templates/.default/images/nv_home.png"), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"about-company", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"БММ-Развилка", 
+		"BMM-Razvilka", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"БММ-Битца", 
+		"BMM-Bitsa", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"Contacts", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
