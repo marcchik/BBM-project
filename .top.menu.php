@@ -16,7 +16,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"БММ-Развилка", 
-		"BMM-Razvilka", 
+		"bmm-razvilka",
 		Array(), 
 		Array(), 
 		"" 

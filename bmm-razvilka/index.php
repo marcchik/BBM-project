@@ -3,8 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("БММ-Развилка");
 ?>
 
-
-
     <main class="main">
 
         <section class="baner-fork">
@@ -12,7 +10,7 @@ $APPLICATION->SetTitle("БММ-Развилка");
                 <div class="baner-fork__inner">
                     <div class="baner-fork__info">
                         <div class="baner-fork__info-img">
-                            <img src="./img/baner-fork1.jpg" alt="">
+                            <img src="/bitrix/templates/bbm/img/baner-fork1.jpg" alt="">
                         </div>
                         <div class="baner-fork__info-text">
                             <div class="baner-fork__info-text-subtitle">Продуктовая база</div>
@@ -22,7 +20,7 @@ $APPLICATION->SetTitle("БММ-Развилка");
                         </div>
                     </div>
                     <div class="baner-fork__img">
-                        <img src="./img/baner-fork2.jpg" alt="">
+                        <img src="/bitrix/templates/bbm/img/baner-fork2.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -31,7 +29,7 @@ $APPLICATION->SetTitle("БММ-Развилка");
                     <div class="baner-fork__items">
                         <div class="baner-fork__item1">
                             <div class="baner-fork__item1-img">
-                                <img src="./img/baner-fork3.jpg" alt="">
+                                <img src="/bitrix/templates/bbm/img/baner-fork3.jpg" alt="">
                             </div>
                             <div class="baner-fork__item1-text">
                                 <div class="baner-fork__item1-text-title">Мелкие, средние <br> и крупные оптовые <br> покупатели</div>
@@ -45,13 +43,13 @@ $APPLICATION->SetTitle("БММ-Развилка");
                         <div class="baner-fork__item2">
                             <div class="baner-fork__item2-wrap">
                                 <div class="baner-fork__item2-wrap-img">
-                                    <img src="./img/baner-fork4.jpg" alt="">
+                                    <img src="/bitrix/templates/bbm/img/baner-fork4.jpg" alt="">
                                 </div>
                                 <div class="baner-fork__item2-wrap-title">Дистрибьютеры</div>
                             </div>
                             <div class="baner-fork__item2-wrap">
                                 <div class="baner-fork__item2-wrap-img">
-                                    <img src="./img/baner-fork5.jpg" alt="">
+                                    <img src="/bitrix/templates/bbm/img/baner-fork5.jpg" alt="">
                                 </div>
                                 <div class="baner-fork__item2-wrap-title">Клиенты розничной <br> торговли</div>
                             </div>
@@ -59,8 +57,8 @@ $APPLICATION->SetTitle("БММ-Развилка");
                     </div>
                 </div>
                 <div class="baner-fork__bottom-messangers">
-                    <a href="#" class="baner-fork__bottom-messangers-telegram"><img src="./img/icons/telegram.svg" alt="telegram"></a>
-                    <a href="#" class="baner-fork__bottom-messangers-whatsapp"><img src="./img/icons/Whatsapp.svg" alt="whatsapp"></a>
+                    <a href="#" class="baner-fork__bottom-messangers-telegram"><img src="/bitrix/templates/bbm/img/icons/telegram.svg" alt="telegram"></a>
+                    <a href="#" class="baner-fork__bottom-messangers-whatsapp"><img src="/bitrix/templates/bbm/img/icons/Whatsapp.svg" alt="whatsapp"></a>
                 </div>
             </div>
         </section>
@@ -92,7 +90,7 @@ $APPLICATION->SetTitle("БММ-Развилка");
                     <div class="selling__item-wrap">
                         <div class="selling__item-text">Производители и&nbsp;поставщики могут сами реализовать свою продукцию</div>
                         <div class="selling__item-img">
-                            <img src="./img/selling1.jpg" alt="">
+                            <img src="/bitrix/templates/bbm/img/selling1.jpg" alt="">
                             <div class="selling__item-img-icon mobile"></div>
                         </div>
                         <div class="selling__item-info">
@@ -108,7 +106,7 @@ $APPLICATION->SetTitle("БММ-Развилка");
                     <div class="selling__item2-wrap">
                         <div class="selling__item2-text">На продуктовой базе «БММ – Развилка» мы предлагаем широкий спектр продуктов</div>
                         <div class="selling__item2-img">
-                            <img src="./img/selling2.jpg" alt="">
+                            <img src="/bitrix/templates/bbm/img/selling2.jpg" alt="">
                             <div class="selling__item2-img-icon mobile"></div>
                         </div>
                         <div class="selling__item2-info">
@@ -131,21 +129,21 @@ $APPLICATION->SetTitle("БММ-Развилка");
                     <div class="advantages__items">
                         <div class="advantages__item">
                             <div class="advantages__item-img">
-                                <img src="./img/advantages1.jpg" alt="">
+                                <img src="/bitrix/templates/bbm/img/advantages1.jpg" alt="">
                             </div>
                             <div class="advantages__item-text">Круглосуточное охранное наблюдение</div>
                         </div>
 
                         <div class="advantages__item">
                             <div class="advantages__item-img">
-                                <img src="./img/advantages2.jpg" alt="">
+                                <img src="/bitrix/templates/bbm/img/advantages2.jpg" alt="">
                             </div>
                             <div class="advantages__item-text">Без выходных <br> и&nbsp;праздников</div>
                         </div>
 
                         <div class="advantages__item">
                             <div class="advantages__item-img">
-                                <img src="./img/advantages3.jpg" alt="">
+                                <img src="/bitrix/templates/bbm/img/advantages3.jpg" alt="">
                             </div>
                             <div class="advantages__item-text">Бесплатная парковка для&nbsp;посетителей </div>
                         </div>
