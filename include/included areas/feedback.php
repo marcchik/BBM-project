@@ -7,12 +7,12 @@
         <div class="feedback__right-text">
             Заполните форму обратной связи и наши специалисты свяжутся с вами в течении часа
         </div>
-        <form action="#" class="feedback__right-form">
+        <form action="/include/included areas/action" class="feedback__right-form">
             <label class="feedback__right-form-label"> <input type="text" class="feedback__right-form-input"
-                                                              placeholder="ФИО"> </label> <label
+                                                              placeholder="ФИО" name="name"> </label> <label
                 class="feedback__right-form-label"> <input type="tel" class="feedback__right-form-input"
-                                                           placeholder="Телефон"> </label> <label
-                class="feedback__right-form-label"> <input type="email" class="feedback__right-form-input"
+                                                           placeholder="Телефон" name="tel"> </label> <label
+                class="feedback__right-form-label"> <input type="email" name="email" class="feedback__right-form-input"
                                                            placeholder="E-mail"> </label> <label
                 class="feedback__right-form-label"> <textarea name="text" class="feedback__right-form-textarea"
                                                               placeholder="Комментарий"></textarea> </label>

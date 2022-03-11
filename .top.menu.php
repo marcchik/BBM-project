@@ -23,7 +23,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"БММ-Битца", 
-		"BMM-Bitsa", 
+		"bmm-bittsa",
 		Array(), 
 		Array(), 
 		"" 

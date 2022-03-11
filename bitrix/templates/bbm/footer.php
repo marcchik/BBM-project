@@ -105,6 +105,8 @@
    </div>
 </div>
 
+<script src="<?=SITE_TEMPLATE_PATH?>/three.min.js"></script>
+
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script src="<?=SITE_TEMPLATE_PATH?>/js/swiper-bundle.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
