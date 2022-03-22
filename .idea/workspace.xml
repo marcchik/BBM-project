@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="592cbf05-2f15-4f34-bf5d-a4d88024ce3a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/bmm-bittsa/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/bot/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/bmm-bittsa/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/Load_3D/src/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/w.obj" />
+      <change type="DELETED" beforePath="D:\project\BBB\bmm-bittsa\index.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MOVED" beforePath="D:\project\BBB\.top.menu.php" afterPath="$PROJECT_DIR$/front-end/.top.menu.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\1.json" afterPath="$PROJECT_DIR$/front-end/1.json" />
+      <change type="MOVED" beforePath="D:\project\BBB\about-company\.section.php" afterPath="$PROJECT_DIR$/front-end/about-company/.section.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\about-company\index.php" afterPath="$PROJECT_DIR$/front-end/about-company/index.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bbm\about.html" afterPath="$PROJECT_DIR$/front-end/bbm/about.html" />
+      <change type="MOVED" beforePath="D:\project\BBB\bbm\all.html" afterPath="$PROJECT_DIR$/front-end/bbm/all.html" />
+      <change type="MOVED" beforePath="D:\project\BBB\bbm\bitza.html" afterPath="$PROJECT_DIR$/front-end/bbm/bitza.html" />
+      <change type="MOVED" beforePath="D:\project\BBB\bbm\contacts.html" afterPath="$PROJECT_DIR$/front-end/bbm/contacts.html" />
+      <change type="MOVED" beforePath="D:\project\BBB\bbm\fork.html" afterPath="$PROJECT_DIR$/front-end/bbm/fork.html" />
+      <change type="MOVED" beforePath="D:\project\BBB\bbm\index.html" afterPath="$PROJECT_DIR$/front-end/bbm/index.html" />
+      <change type="MOVED" beforePath="D:\project\BBB\bbm\index.php" afterPath="$PROJECT_DIR$/front-end/bbm/index.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\main.include\feedback\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/main.include/feedback/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\.description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/.description.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\images\arrow.gif" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/images/arrow.gif" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\images\header_menu_bg.gif" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/images/header_menu_bg.gif" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\images\lock.gif" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/images/lock.gif" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\en\.description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/en/.description.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/en/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\ru\.description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/ru/.description.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/ru/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\script.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/script.js" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\script.map.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/script.map.js" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\script.min.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/script.min.js" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/style.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\style.min.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/style.min.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\en\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/en/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\ru\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/ru/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/style.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\reviews_one\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/reviews_one/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\en\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/en/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\ru\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/ru/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/style.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\en\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/en/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/en/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\ru\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/ru/.parameters.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/ru/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/style.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\structure\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/structure/template.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\.styles.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/.styles.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\css\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/css/style.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\css\swiper-bundle.min.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/css/swiper-bundle.min.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/description.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.eot" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.otf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.ttf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.woff" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.eot" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.otf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.ttf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.woff" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.eot" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.otf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.ttf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.woff" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.eot" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.otf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.ttf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.woff" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.eot" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.otf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.ttf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.woff" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.eot" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.otf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.ttf" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.woff" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/footer.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/header.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant3.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant4.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant4.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advantages1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advantages1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advantages2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advantages2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advantages3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advantages3.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-about.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-about.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork3.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork4.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork4.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork5.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork5.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home-slid1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home-slid1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home-slid2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home-slid2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home-slid3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home-slid3.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home3.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home4.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home4.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\bitza1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/bitza1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\bitza2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/bitza2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\feedback.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/feedback.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\feedback1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/feedback1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\Whatsapp.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/Whatsapp.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\arrow-btn-link.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/arrow-btn-link.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\arrow-white.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/arrow-white.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts1.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts1.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts2.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts3.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts3.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts4.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts4.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\bitza-arrow.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/bitza-arrow.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\car.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/car.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\close.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/close.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\close2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/close2.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\fish.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/fish.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\fish2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/fish2.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\label.png" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/label.png" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\label.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/label.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mail.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mail.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mail2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mail2.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\map.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/map.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\map2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/map2.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\map3.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/map3.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mouse.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mouse.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mouse2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mouse2.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\ok.png" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/ok.png" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\telegram.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/telegram.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\tup.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/tup.svg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\logo.png" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/logo.png" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\modal.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/modal.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\selling1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/selling1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\selling2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/selling2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\services1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/services1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\services2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/services2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\services3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/services3.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\structure1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/structure1.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\structure2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/structure2.jpg" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\js\main.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/js/main.js" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\js\swiper-bundle.min.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/js/swiper-bundle.min.js" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_advant.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_advant.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_advantages.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_advantages.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-about.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-about.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-bitza.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-bitza.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-contacts.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-contacts.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-fork.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-fork.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-home.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-home.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_color.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_color.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_complex.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_complex.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_feedback.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_feedback.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_fonts.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_fonts.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_footer.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_footer.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_general.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_general.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_header.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_header.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_leader.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_leader.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_modal-btn.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_modal-btn.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_modal.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_modal.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_route.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_route.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_selling.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_selling.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_services.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_services.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_set.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_set.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_structure.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_structure.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\style.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/style.scss" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/styles.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\template_styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/template_styles.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\three.min.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/three.min.js" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\.styles.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/.styles.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/description.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/footer.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/header.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\en\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/en/footer.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\en\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/en/header.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\ru\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/ru/footer.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\ru\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/ru/header.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/styles.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\template_styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/template_styles.css" />
+      <change type="MOVED" beforePath="D:\project\BBB\bmm-bittsa\.section.php" afterPath="$PROJECT_DIR$/front-end/bmm-bittsa/.section.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bmm-razvilka\.section.php" afterPath="$PROJECT_DIR$/front-end/bmm-razvilka/.section.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\bmm-razvilka\index.php" afterPath="$PROJECT_DIR$/front-end/bmm-razvilka/index.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\include\included areas\action\index.php" afterPath="$PROJECT_DIR$/front-end/include/included areas/action/index.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\include\included areas\feedback.php" afterPath="$PROJECT_DIR$/front-end/include/included areas/feedback.php" />
+      <change type="MOVED" beforePath="D:\project\BBB\index.php" afterPath="$PROJECT_DIR$/front-end/index.php" />
+    </list>
+    <ignored path="BBB.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BBB" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="425">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/tree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="917" max-vertical-offset="74851">
+              <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/load.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2346">
+              <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.8846154" vertical-offset="2413" max-vertical-offset="3706">
+              <caret line="277" column="17" selection-start-line="277" selection-start-column="17" selection-end-line="277" selection-end-column="17" />
+              <folding>
+                <element signature="e#382#3509#0#PHP" expanded="false" />
+                <element signature="e#3915#7248#0#PHP" expanded="false" />
+                <marker date="1647839093378" expanded="true" signature="11988:12110" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.265625" vertical-offset="0" max-vertical-offset="576">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/www/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1870">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/Load_3D/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1904">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/bot/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="781" max-vertical-offset="1666">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="World.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/World.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GLTFLoader.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/Load_3D/vendor/three/examples/jsm/loaders/GLTFLoader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="71542" max-vertical-offset="72131">
+              <caret line="4236" column="9" selection-start-line="4236" selection-start-column="9" selection-end-line="4236" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/about.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/main/header.php" />
+        <option value="$PROJECT_DIR$/bbm/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/reviews_one/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/services/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/menu/top-menu/template.php" />
+        <option value="$PROJECT_DIR$/bbm/index.html" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/advantages/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/slider-img/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/structure/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/main.include/feedback/template.php" />
+        <option value="$PROJECT_DIR$/about-company/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/bbm/header.php" />
+        <option value="$PROJECT_DIR$/bmm-razvilka/index.php" />
+        <option value="$PROJECT_DIR$/.top.menu.php" />
+        <option value="$PROJECT_DIR$/include/included areas/action.php" />
+        <option value="$PROJECT_DIR$/include/included areas/feedback.php" />
+        <option value="$PROJECT_DIR$/include/included areas/action/index.php" />
+        <option value="$PROJECT_DIR$/1.js" />
+        <option value="$PROJECT_DIR$/1.json" />
+        <option value="$PROJECT_DIR$/bitrix/templates/bbm/footer.php" />
+        <option value="$PROJECT_DIR$/Load_3D/src/World/World.js" />
+        <option value="$PROJECT_DIR$/Load_3D/src/World/components/birds/birds.js" />
+        <option value="$PROJECT_DIR$/bmm-bittsa/load.js" />
+        <option value="$PROJECT_DIR$/bmm-bittsa/index.php" />
+        <option value="$PROJECT_DIR$/Load_3D/src/tree.js" />
+        <option value="$PROJECT_DIR$/Load_3D/src/main.js" />
+        <option value="$PROJECT_DIR$/load.html" />
+        <option value="$PROJECT_DIR$/Load_3D/index.html" />
+        <option value="$PROJECT_DIR$/bot/index.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/project/index.html" />
+        <option value="$PROJECT_DIR$/project/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BBB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front-end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="D:/study/3к2с/KP/WEB" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript 1.5" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
+    <property name="JavaScriptLanguageLevel" value="ES6" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\BBB" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\BBB\front-end" />
+      <recent name="D:\project\BBB" />
+      <recent name="D:\project\BBB\bitrix\templates\bbm" />
+      <recent name="D:\project\BBB\include\included areas\action" />
+      <recent name="D:\project\BBB\include\included areas" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="ff3ac25d-88b3-4647-9a27-c7864122c9a2" server_name="Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Марк\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="592cbf05-2f15-4f34-bf5d-a4d88024ce3a" name="Default" comment="" />
+      <created>1645818920125</created>
+      <option name="number" value="Default" />
+      <updated>1645818920125</updated>
+    </task>
+    <task id="LOCAL-00001" summary="start bitrix template">
+      <created>1646258244754</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646258244754</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new components and new page - about company">
+      <created>1646286911603</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646286911603</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new components and new page - about company 2">
+      <created>1646286938418</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646286938418</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add new page - BMM-Razvilka">
+      <created>1646292593863</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646292593863</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update pages">
+      <created>1646373209662</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646373209662</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update pages 2">
+      <created>1646373888630</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646373888630</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Load 3D">
+      <created>1646984590170</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646984590170</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.134375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="start bitrix template" />
+    <MESSAGE value="new components and new page - about company" />
+    <MESSAGE value="new components and new page - about company 2" />
+    <MESSAGE value="add new page - BMM-Razvilka" />
+    <MESSAGE value="update pages" />
+    <MESSAGE value="update pages 2" />
+    <MESSAGE value="Load 3D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Load 3D" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/front-end/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3458" max-vertical-offset="4692">
+          <caret line="126" column="93" selection-start-line="127" selection-start-column="84" selection-end-line="127" selection-end-column="106" />
+          <folding>
+            <element signature="e#382#3509#0#PHP" expanded="false" />
+            <element signature="e#3915#7248#0#PHP" expanded="false" />
+            <marker date="1647839093378" expanded="true" signature="11988:12110" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="952">
+          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1071">
+          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/reviews_one/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="714">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/bbm/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/bbm/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1192" max-vertical-offset="2006">
+          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bbm/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="3825">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/main/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="4811">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/main/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="4811">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/reviews_one/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="714">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bbm/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17288135" vertical-offset="0" max-vertical-offset="3876">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5" vertical-offset="67" max-vertical-offset="952">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="5" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.538462" vertical-offset="67" max-vertical-offset="952">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="731">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/Марк/Downloads/Telegram Desktop/BMM_d/BMM_d/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.5" vertical-offset="461" max-vertical-offset="3026">
+          <caret line="233" column="10" selection-start-line="59" selection-start-column="0" selection-end-line="233" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/structure/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="153" max-vertical-offset="1241">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bbm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.006880734" vertical-offset="397" max-vertical-offset="6681">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Users/Марк/Downloads/Telegram Desktop/BMM_d/BMM_d/fork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="3026">
+          <caret line="210" column="10" selection-start-line="59" selection-start-column="0" selection-end-line="210" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/about-company/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2889" max-vertical-offset="3774">
+          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/main.include/feedback/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/include/included areas/action/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4437" max-vertical-offset="48076">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/.top.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="748">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/bbm/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="714">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/include/included areas/feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1190">
+          <caret line="11" column="90" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bmm-razvilka/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2822">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/bbm/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.384615" vertical-offset="1117" max-vertical-offset="2040">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/components/lights.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/components/scene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/components/camera.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/systems/controls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/systems/Loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/assets/models/Parrot.glb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="32657">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/assets/models/Flamingo.glb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22372">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/components/birds/setupModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bmm-bittsa/load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="32805" max-vertical-offset="75123">
+          <caret line="1951" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="4413" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bmm-bittsa/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="1462">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/components/birds/birds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="646">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/vendor/three/examples/jsm/loaders/GLTFLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="71542" max-vertical-offset="72131">
+          <caret line="4236" column="9" selection-start-line="4236" selection-start-column="9" selection-end-line="4236" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="425">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/World/World.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="917" max-vertical-offset="74851">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/load.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2346">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/Load_3D/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1904">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/bot/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="781" max-vertical-offset="1666">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/www/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1870">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8846154" vertical-offset="2413" max-vertical-offset="3706">
+          <caret line="277" column="17" selection-start-line="277" selection-start-column="17" selection-end-line="277" selection-end-column="17" />
+          <folding>
+            <element signature="e#382#3509#0#PHP" expanded="false" />
+            <element signature="e#3915#7248#0#PHP" expanded="false" />
+            <marker date="1647839093378" expanded="true" signature="11988:12110" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.265625" vertical-offset="0" max-vertical-offset="576">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
