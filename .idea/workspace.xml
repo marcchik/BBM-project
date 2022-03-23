@@ -2,200 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592cbf05-2f15-4f34-bf5d-a4d88024ce3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/bmm-bittsa/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/bot/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/bmm-bittsa/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/Load_3D/src/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front-end/w.obj" />
-      <change type="DELETED" beforePath="D:\project\BBB\bmm-bittsa\index.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/main/.styles.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrixsetup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/main/description.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/main/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/main/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/main/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/main/template_styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MOVED" beforePath="D:\project\BBB\.top.menu.php" afterPath="$PROJECT_DIR$/front-end/.top.menu.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\1.json" afterPath="$PROJECT_DIR$/front-end/1.json" />
-      <change type="MOVED" beforePath="D:\project\BBB\about-company\.section.php" afterPath="$PROJECT_DIR$/front-end/about-company/.section.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\about-company\index.php" afterPath="$PROJECT_DIR$/front-end/about-company/index.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bbm\about.html" afterPath="$PROJECT_DIR$/front-end/bbm/about.html" />
-      <change type="MOVED" beforePath="D:\project\BBB\bbm\all.html" afterPath="$PROJECT_DIR$/front-end/bbm/all.html" />
-      <change type="MOVED" beforePath="D:\project\BBB\bbm\bitza.html" afterPath="$PROJECT_DIR$/front-end/bbm/bitza.html" />
-      <change type="MOVED" beforePath="D:\project\BBB\bbm\contacts.html" afterPath="$PROJECT_DIR$/front-end/bbm/contacts.html" />
-      <change type="MOVED" beforePath="D:\project\BBB\bbm\fork.html" afterPath="$PROJECT_DIR$/front-end/bbm/fork.html" />
-      <change type="MOVED" beforePath="D:\project\BBB\bbm\index.html" afterPath="$PROJECT_DIR$/front-end/bbm/index.html" />
-      <change type="MOVED" beforePath="D:\project\BBB\bbm\index.php" afterPath="$PROJECT_DIR$/front-end/bbm/index.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\main.include\feedback\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/main.include/feedback/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\.description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/.description.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\images\arrow.gif" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/images/arrow.gif" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\images\header_menu_bg.gif" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/images/header_menu_bg.gif" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\images\lock.gif" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/images/lock.gif" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\en\.description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/en/.description.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/en/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\ru\.description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/ru/.description.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/lang/ru/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\script.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/script.js" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\script.map.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/script.map.js" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\script.min.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/script.min.js" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/style.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\style.min.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/style.min.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\menu\top-menu\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\en\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/en/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/en/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\ru\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/ru/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/lang/ru/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/style.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\advantages\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\reviews_one\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/reviews_one/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\en\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/en/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/en/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\ru\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/ru/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/lang/ru/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/style.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\services\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\en\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/en/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\en\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/en/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\ru\.parameters.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/ru/.parameters.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\lang\ru\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/lang/ru/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/style.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\slider-img\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/slider-img/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\.default\components\bitrix\news.list\structure\template.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/structure/template.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\.styles.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/.styles.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\css\style.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/css/style.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\css\swiper-bundle.min.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/css/swiper-bundle.min.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/description.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.eot" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.otf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.ttf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Bold.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Bold.woff" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.eot" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.otf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.ttf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\Circe-Regular.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/Circe-Regular.woff" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.eot" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.otf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.ttf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Bold.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Bold.woff" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.eot" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.otf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.ttf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Light.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Light.woff" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.eot" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.otf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.ttf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-Regular.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-Regular.woff" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.eot" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.eot" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.otf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.otf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.ttf" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.ttf" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\fonts\EuclidCircularA-SemiBold.woff" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/fonts/EuclidCircularA-SemiBold.woff" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/footer.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/header.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant3.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advant4.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advant4.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advantages1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advantages1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advantages2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advantages2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\advantages3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/advantages3.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-about.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-about.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork3.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork4.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork4.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-fork5.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-fork5.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home-slid1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home-slid1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home-slid2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home-slid2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home-slid3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home-slid3.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home3.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\baner-home4.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/baner-home4.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\bitza1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/bitza1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\bitza2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/bitza2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\feedback.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/feedback.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\feedback1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/feedback1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\Whatsapp.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/Whatsapp.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\arrow-btn-link.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/arrow-btn-link.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\arrow-white.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/arrow-white.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts1.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts1.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts2.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts3.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts3.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\baner-contacts4.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/baner-contacts4.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\bitza-arrow.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/bitza-arrow.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\car.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/car.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\close.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/close.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\close2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/close2.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\fish.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/fish.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\fish2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/fish2.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\label.png" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/label.png" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\label.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/label.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mail.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mail.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mail2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mail2.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\map.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/map.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\map2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/map2.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\map3.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/map3.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mouse.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mouse.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\mouse2.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/mouse2.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\ok.png" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/ok.png" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\telegram.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/telegram.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\icons\tup.svg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/icons/tup.svg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\logo.png" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/logo.png" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\modal.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/modal.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\selling1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/selling1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\selling2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/selling2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\services1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/services1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\services2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/services2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\services3.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/services3.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\structure1.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/structure1.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\img\structure2.jpg" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/img/structure2.jpg" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\js\main.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/js/main.js" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\js\swiper-bundle.min.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/js/swiper-bundle.min.js" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_advant.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_advant.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_advantages.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_advantages.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-about.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-about.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-bitza.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-bitza.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-contacts.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-contacts.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-fork.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-fork.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_baner-home.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_baner-home.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_color.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_color.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_complex.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_complex.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_feedback.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_feedback.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_fonts.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_fonts.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_footer.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_footer.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_general.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_general.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_header.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_header.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_leader.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_leader.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_modal-btn.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_modal-btn.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_modal.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_modal.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_route.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_route.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_selling.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_selling.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_services.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_services.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_set.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_set.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\_structure.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/_structure.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\scss\style.scss" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/scss/style.scss" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/styles.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\template_styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/template_styles.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\bbm\three.min.js" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/bbm/three.min.js" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\.styles.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/.styles.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\description.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/description.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/footer.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/header.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\en\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/en/footer.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\en\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/en/header.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\ru\footer.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/ru/footer.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\lang\ru\header.php" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/lang/ru/header.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/styles.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bitrix\templates\main\template_styles.css" afterPath="$PROJECT_DIR$/front-end/bitrix/templates/main/template_styles.css" />
-      <change type="MOVED" beforePath="D:\project\BBB\bmm-bittsa\.section.php" afterPath="$PROJECT_DIR$/front-end/bmm-bittsa/.section.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bmm-razvilka\.section.php" afterPath="$PROJECT_DIR$/front-end/bmm-razvilka/.section.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\bmm-razvilka\index.php" afterPath="$PROJECT_DIR$/front-end/bmm-razvilka/index.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\include\included areas\action\index.php" afterPath="$PROJECT_DIR$/front-end/include/included areas/action/index.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\include\included areas\feedback.php" afterPath="$PROJECT_DIR$/front-end/include/included areas/feedback.php" />
-      <change type="MOVED" beforePath="D:\project\BBB\index.php" afterPath="$PROJECT_DIR$/front-end/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BBB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -220,16 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="425">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tree.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/Load_3D/src/tree.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -253,7 +58,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8846154" vertical-offset="2413" max-vertical-offset="3706">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2413" max-vertical-offset="3706">
               <caret line="277" column="17" selection-start-line="277" selection-start-column="17" selection-end-line="277" selection-end-column="17" />
               <folding>
                 <element signature="e#382#3509#0#PHP" expanded="false" />
@@ -264,12 +69,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.265625" vertical-offset="0" max-vertical-offset="576">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/main/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1241">
+              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/main/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3119266" vertical-offset="0" max-vertical-offset="872">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -314,16 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GLTFLoader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/Load_3D/vendor/three/examples/jsm/loaders/GLTFLoader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="71542" max-vertical-offset="72131">
-              <caret line="4236" column="9" selection-start-line="4236" selection-start-column="9" selection-end-line="4236" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -333,7 +150,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/about.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/main/header.php" />
         <option value="$PROJECT_DIR$/bbm/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/reviews_one/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/services/template.php" />
@@ -368,6 +184,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/project/index.html" />
         <option value="$PROJECT_DIR$/project/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/main/footer.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/main/header.php" />
       </list>
     </option>
   </component>
@@ -404,7 +222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,10 +239,6 @@
               <option name="myItemId" value="BBB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -437,12 +250,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="front-end" />
+              <option name="myItemId" value="bitrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,7 +279,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="D:/study/3к2с/KP/WEB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntriesJavaScript 1.5" value="false" />
     <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
     <property name="JavaScriptLanguageLevel" value="ES6" />
@@ -469,8 +291,8 @@
       <recent name="D:\project\BBB" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\BBB\front-end" />
       <recent name="D:\project\BBB" />
+      <recent name="D:\project\BBB\front-end" />
       <recent name="D:\project\BBB\bitrix\templates\bbm" />
       <recent name="D:\project\BBB\include\included areas\action" />
       <recent name="D:\project\BBB\include\included areas" />
@@ -491,9 +313,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="ff3ac25d-88b3-4647-9a27-c7864122c9a2" server_name="Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -501,6 +320,9 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="ff3ac25d-88b3-4647-9a27-c7864122c9a2" server_name="Server">
       <method />
     </configuration>
     <list size="0" />
@@ -562,31 +384,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1048" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.134375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.134375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -618,32 +440,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front-end/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3458" max-vertical-offset="4692">
-          <caret line="126" column="93" selection-start-line="127" selection-start-column="84" selection-end-line="127" selection-end-column="106" />
-          <folding>
-            <element signature="e#382#3509#0#PHP" expanded="false" />
-            <element signature="e#3915#7248#0#PHP" expanded="false" />
-            <marker date="1647839093378" expanded="true" signature="11988:12110" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/advantages/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/menu/top-menu/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="952">
-          <caret line="27" column="78" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/bitrix/templates/.default/components/bitrix/news.list/services/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1071">
@@ -907,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="646">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -915,7 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="71542" max-vertical-offset="72131">
           <caret line="4236" column="9" selection-start-line="4236" selection-start-column="9" selection-end-line="4236" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8846154" vertical-offset="2413" max-vertical-offset="3706">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2413" max-vertical-offset="3706">
           <caret line="277" column="17" selection-start-line="277" selection-start-column="17" selection-end-line="277" selection-end-column="17" />
           <folding>
             <element signature="e#382#3509#0#PHP" expanded="false" />
@@ -987,11 +781,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bitrixsetup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="35836">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.265625" vertical-offset="0" max-vertical-offset="576">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/main/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/main/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3119266" vertical-offset="0" max-vertical-offset="872">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
