@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Dell</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate-slider.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="js/jq-ui-1.13.0/jquery-ui.css">
+    <link rel="stylesheet" href="js/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="js/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="js/plugins/swiper/swiper.min.css">
+    <link rel="stylesheet" href="js/plugins/tingle-master/src/tingle.css">
+
+    <script src="js/jq/jquery.js"></script>
+    <script src="js/jq-ui-1.13.0/jquery-ui.min.js"></script>
+    <script src="js/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/plugins/swiper/swiper.min.js"></script>
+    <script src="js/plugins/tingle-master/src/tingle.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="contentWrapper">
+                <div class="left">
+                    <div class="logoMain">
+                        <a href="/"><img src="img/icons/logo.svg" alt=""></a>
+                    </div>
+                    <input id="toggleMenu" type="checkbox">
+                    <nav class="headerMenu">
+                        <div class="mobileHeader mobShow">
+                            <span>Меню</span>
+                            <img class="iconCross" src="img/icons/crossMobile.svg" alt="">
+                        </div>
+                        <div class="noAuth">
+                            <div class="text">Привет, гость!</div>
+                            <div class="authActions">
+                                <a class="buttonBlue" href="#">Войти</a>
+                                <a class="buttonBlue" href="#">Регистрация</a>
+                            </div>
+                        </div>
+                        <ul>
+                            <li><a href="#" class="active">главная</a></li>
+                            <li><a href="#">каталог</a></li>
+                            <li><a href="#">новости</a></li>
+                            <li><a href="#">наш асц</a></li>
+                            <li><a href="#">контакты</a></li>
+                            <li class="mobHide posRelative">
+                                <a href="#" class="iconSearch js-openSearch"></a>
+                                <div class="searchBox">
+                                    <div class="searchActive">
+                                        <input type="text" name="">
+                                        <span class="iconBlueButton">→</span>
+                                    </div>
+                                    <div class="autocomplitItems">
+                                        <div class="item">
+                                            <div class="imgWrap">
+                                                <img src="img/cs1.png" alt="">
+                                            </div>
+                                            <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="imgWrap">
+                                                <img src="img/cs1.png" alt="">
+                                            </div>
+                                            <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="imgWrap">
+                                                <img src="img/cs1.png" alt="">
+                                            </div>
+                                            <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
+                                        </div>
+                                        <div class="item empty">
+                                            <div class="imgWrap"></div>
+                                            <div class="itemName">Ничего не найдено</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="right">
+                    <div class="userActions">
+                        <ul>
+                            <li class="mobShow posRelative">
+                                <span class="iconSearch js-openSearch"></span>
+                                <div class="searchBox">
+                                    <div class="searchActive">
+                                        <input type="text" name="">
+                                        <span class="iconBlueButton">→</span>
+                                    </div>
+                                    <div class="autocomplitItems">
+                                        <div class="item">
+                                            <div class="imgWrap">
+                                                <img src="img/cs1.png" alt="">
+                                            </div>
+                                            <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="imgWrap">
+                                                <img src="img/cs1.png" alt="">
+                                            </div>
+                                            <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="imgWrap">
+                                                <img src="img/cs1.png" alt="">
+                                            </div>
+                                            <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
+                                        </div>
+                                        <div class="item empty">
+                                            <div class="imgWrap"></div>
+                                            <div class="itemName">Ничего не найдено</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg class="iconProfile pathStroke" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.2232 21.8578V19.6184C20.2232 18.4306 19.7338 17.2914 18.8628 16.4515C17.9918 15.6115 16.8104 15.1396 15.5785 15.1396H6.2892C5.05736 15.1396 3.87597 15.6115 3.00492 16.4515C2.13388 17.2914 1.64453 18.4306 1.64453 19.6184V21.8578" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10.9337 10.6607C13.4989 10.6607 15.5784 8.65548 15.5784 6.18191C15.5784 3.70835 13.4989 1.70312 10.9337 1.70312C8.36855 1.70312 6.28906 3.70835 6.28906 6.18191C6.28906 8.65548 8.36855 10.6607 10.9337 10.6607Z" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mobHide">
+                                <a href="">
+                                    <svg class="iconStats pathStroke pathFill rectStroke" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.94939 6.94939C10.4932 6.40553 11.2309 6.1 12 6.1C12.7691 6.1 13.5068 6.40553 14.0506 6.94939C14.5945 7.49325 14.9 8.23087 14.9 9V21C14.9 21.7691 14.5945 22.5068 14.0506 23.0506C13.5068 23.5945 12.7691 23.9 12 23.9C11.2309 23.9 10.4932 23.5945 9.94939 23.0506C9.40553 22.5068 9.1 21.7691 9.1 21V9C9.1 8.23087 9.40553 7.49325 9.94939 6.94939ZM12.7778 21.7778C12.9841 21.5715 13.1 21.2917 13.1 21V9C13.1 8.70826 12.9841 8.42847 12.7778 8.22218C12.5715 8.01589 12.2917 7.9 12 7.9C11.7083 7.9 11.4285 8.01589 11.2222 8.22218C11.0159 8.42847 10.9 8.70826 10.9 9V21C10.9 21.2917 11.0159 21.5715 11.2222 21.7778C11.4285 21.9841 11.7083 22.1 12 22.1C12.2917 22.1 12.5715 21.9841 12.7778 21.7778Z" fill="none" stroke="#292D32" stroke-width="0.2"/>
+                                        <path d="M18.9494 0.94939C19.4932 0.405535 20.2309 0.1 21 0.1C21.7691 0.1 22.5068 0.405535 23.0506 0.94939C23.5945 1.49325 23.9 2.23087 23.9 3V21C23.9 21.7691 23.5945 22.5068 23.0506 23.0506C22.5068 23.5945 21.7691 23.9 21 23.9C20.2309 23.9 19.4932 23.5945 18.9494 23.0506C18.4055 22.5068 18.1 21.7691 18.1 21V3C18.1 2.23087 18.4055 1.49325 18.9494 0.94939ZM21.7778 21.7778C21.9841 21.5715 22.1 21.2917 22.1 21V3C22.1 2.70826 21.9841 2.42847 21.7778 2.22218C21.5715 2.01589 21.2917 1.9 21 1.9C20.7083 1.9 20.4285 2.01589 20.2222 2.22218C20.0159 2.42847 19.9 2.70826 19.9 3V21C19.9 21.2917 20.0159 21.5715 20.2222 21.7778C20.4285 21.9841 20.7083 22.1 21 22.1C21.2917 22.1 21.5715 21.9841 21.7778 21.7778Z" fill="none" stroke="#292D32" stroke-width="0.2"/>
+                                        <rect x="0.75" y="12.75" width="4.5" height="10.5" rx="2.25" stroke="none" stroke-width="1.5"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="mobHide">
+                                <a href="">
+                                    <svg class="iconFavorite pathFill" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.5 0.916992C16.3739 0.934507 15.2724 1.24885 14.3067 1.82826C13.341 2.40768 12.5453 3.23166 12 4.21699C11.4546 3.23166 10.6589 2.40768 9.6932 1.82826C8.7275 1.24885 7.62601 0.934507 6.49996 0.916992C4.7049 0.994983 3.01366 1.78025 1.79574 3.10122C0.577818 4.4222 -0.0677922 6.17152 -4.17093e-05 7.96699C-4.17093e-05 12.514 4.78596 17.48 8.79996 20.847C9.69618 21.6001 10.8293 22.013 12 22.013C13.1706 22.013 14.3037 21.6001 15.2 20.847C19.214 17.48 24 12.514 24 7.96699C24.0677 6.17152 23.4221 4.4222 22.2042 3.10122C20.9863 1.78025 19.295 0.994983 17.5 0.916992ZM13.915 19.317C13.3789 19.7684 12.7007 20.0159 12 20.0159C11.2992 20.0159 10.621 19.7684 10.085 19.317C4.94696 15.006 1.99996 10.87 1.99996 7.96699C1.9316 6.70171 2.36632 5.46072 3.20932 4.51469C4.05232 3.56866 5.23519 2.99434 6.49996 2.91699C7.76472 2.99434 8.9476 3.56866 9.7906 4.51469C10.6336 5.46072 11.0683 6.70171 11 7.96699C11 8.23221 11.1053 8.48656 11.2929 8.6741C11.4804 8.86164 11.7347 8.96699 12 8.96699C12.2652 8.96699 12.5195 8.86164 12.7071 8.6741C12.8946 8.48656 13 8.23221 13 7.96699C12.9316 6.70171 13.3663 5.46072 14.2093 4.51469C15.0523 3.56866 16.2352 2.99434 17.5 2.91699C18.7647 2.99434 19.9476 3.56866 20.7906 4.51469C21.6336 5.46072 22.0683 6.70171 22 7.96699C22 10.87 19.053 15.006 13.915 19.313V19.317Z" fill="none" stroke="none" stroke-width="0.6"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="activeNotification">3</div>
+                                    <svg class="iconBag pathFill" width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.1157 7.69568V5.55802C16.1157 4.8919 15.9845 4.2323 15.7296 3.61689C15.4747 3.00147 15.101 2.44229 14.63 1.97127C14.159 1.50026 13.5998 1.12662 12.9844 0.871711C12.369 0.616798 11.7094 0.485596 11.0433 0.485596C10.3772 0.485596 9.71756 0.616798 9.10215 0.871711C8.48674 1.12662 7.92756 1.50026 7.45654 1.97127C6.98552 2.44229 6.61189 3.00147 6.35698 3.61689C6.10206 4.2323 5.97086 4.8919 5.97086 5.55802V10.6304C5.97086 10.8226 6.0472 11.0069 6.1831 11.1428C6.31899 11.2787 6.50331 11.3551 6.69549 11.3551C6.88768 11.3551 7.07199 11.2787 7.20788 11.1428C7.34378 11.0069 7.42012 10.8226 7.42012 10.6304V9.14494H13.2172V7.69568H7.42012V5.55802C7.42012 4.5971 7.80185 3.67553 8.48132 2.99606C9.1608 2.31658 10.0824 1.93486 11.0433 1.93486C12.0042 1.93486 12.9258 2.31658 13.6052 2.99606C14.2847 3.67553 14.6664 4.5971 14.6664 5.55802V10.5942C14.6664 10.7864 14.7428 10.9707 14.8787 11.1066C15.0146 11.2425 15.1989 11.3188 15.3911 11.3188C15.5833 11.3188 15.7676 11.2425 15.9035 11.1066C16.0394 10.9707 16.1157 10.7864 16.1157 10.5942V9.14494H19.7389V22.1883H2.3477V9.14494H4.5216V7.69568H0.898438V22.2535C0.898438 22.6206 1.04426 22.9726 1.30382 23.2322C1.56337 23.4918 1.91541 23.6376 2.28248 23.6376H19.8041C20.1712 23.6376 20.5232 23.4918 20.7827 23.2322C21.0423 22.9726 21.1881 22.6206 21.1881 22.2535V7.69568H16.1157Z" fill="none"/>
+                                    </svg>
+
+                                </a>
+                            </li>
+                            <li class="mobMenu mobShow">
+                                <img class="iconMenu" src="img/icons/menu.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="pageContent">
+            <section class="bestPrices bgGray main">
+                <div class="bpContentWrapper">
+                    <div class="bgText">dell</div>
+                    <div class="left">
+                        <div class="owl-carousel introSlider">
+                            <div class="item">
+                                <div class="info">
+                                    <a href="" class="verticalButton mobHide">
+                                        <span>Scroll to catalog</span>
+                                        <img src="img/icons/scroll.svg" alt="">
+                                    </a>
+                                    <div class="textGray">Новое поступление</div>
+                                    <div class="title">Лучшие товары от компании Dell</div>
+                                    <div>
+                                        <a href="#">
+                                            <span class="iconBlueButton">&rarr;</span>
+                                            <span>Подробнее</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="imgWrapper"><img src="img/sliderItem1.png" alt=""></div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <a href="" class="verticalButton mobHide">
+                                        <span>Scroll to catalog</span>
+                                        <img src="img/icons/scroll.svg" alt="">
+                                    </a>
+                                    <div class="textGray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, vero.</div>
+                                    <div class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ipsa.</div>
+                                    <div>
+                                        <a href="#">
+                                            <span class="iconBlueButton">&rarr;</span>
+                                            <span>Подробнее</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="imgWrapper"><img src="img/cs1.png" alt=""></div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <a href="" class="verticalButton mobHide">
+                                        <span>Scroll to catalog</span>
+                                        <img src="img/icons/scroll.svg" alt="">
+                                    </a>
+                                    <div class="textGray">Lorem ipsum.</div>
+                                    <div class="title">Lorem.</div>
+                                    <div>
+                                        <a href="#">
+                                            <span class="iconBlueButton">&rarr;</span>
+                                            <span>Подробнее</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="imgWrapper"><img src="img/cs5.png" alt=""></div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <a href="" class="verticalButton mobHide">
+                                        <span>Scroll to catalog</span>
+                                        <img src="img/icons/scroll.svg" alt="">
+                                    </a>
+                                    <div class="textGray">Lorem ipsum dolor sit amet.</div>
+                                    <div class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ipsa.</div>
+                                    <div>
+                                        <a href="#">
+                                            <span class="iconBlueButton">&rarr;</span>
+                                            <span>Подробнее</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="imgWrapper"><img src="img/cs2.png" alt=""></div>
+                            </div>
+                            <div class="item">
+                                <div class="info">
+                                    <a href="" class="verticalButton mobHide">
+                                        <span>Scroll to catalog</span>
+                                        <img src="img/icons/scroll.svg" alt="">
+                                    </a>
+                                    <div class="textGray">Lorem ipsum dolor sit amet.</div>
+                                    <div class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ipsa.</div>
+                                    <div>
+                                        <a href="#">
+                                            <span class="iconBlueButton">&rarr;</span>
+                                            <span>Подробнее</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="imgWrapper"><img src="img/cs3.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="messengerLink">
+                            <div class="icon">
+                                <svg class="iconMessage" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.52348 7.17562C5.66465 7.17562 4.96842 7.87185 4.96842 8.73068C4.96842 9.58952 5.66465 10.2857 6.52348 10.2857C7.38232 10.2857 8.07854 9.58952 8.07854 8.73068C8.07854 7.87185 7.38232 7.17562 6.52348 7.17562Z" fill="none"/>
+                                    <path d="M11.4997 7.17562C10.6408 7.17562 9.94461 7.87185 9.94461 8.73068C9.94461 9.58952 10.6408 10.2857 11.4997 10.2857C12.3585 10.2857 13.0547 9.58952 13.0547 8.73068C13.0547 7.87185 12.3585 7.17562 11.4997 7.17562Z" fill="none"/>
+                                    <path d="M14.9208 8.73068C14.9208 7.87185 15.617 7.17562 16.4759 7.17562C17.3347 7.17562 18.0309 7.87185 18.0309 8.73068C18.0309 9.58952 17.3347 10.2857 16.4759 10.2857C15.617 10.2857 14.9208 9.58952 14.9208 8.73068Z" fill="none"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6012 1.07082C13.2495 0.784987 9.88025 0.768399 6.5259 1.02122L6.28551 1.03933C3.08668 1.28043 0.614258 3.94621 0.614258 7.15411V17.75C0.614258 18.0783 0.786765 18.3824 1.06852 18.5509C1.35027 18.7193 1.69982 18.7273 1.98898 18.5719L6.85419 15.9573C7.0805 15.8356 7.33341 15.772 7.59033 15.772H18.7574C20.1658 15.772 21.3727 14.7651 21.6252 13.3795C22.1368 10.5714 22.1773 7.6977 21.7448 4.87631L21.6173 4.04488C21.3853 2.53119 20.147 1.37321 18.6212 1.24308L16.6012 1.07082ZM6.66615 2.88201C9.92102 2.63669 13.1903 2.65279 16.4426 2.93014L18.4626 3.10241C19.1299 3.15931 19.6714 3.66569 19.7728 4.32761L19.9003 5.15904C20.3013 7.77563 20.2639 10.4407 19.7894 13.045C19.6985 13.5436 19.2642 13.9059 18.7574 13.9059H7.59033C7.02511 13.9059 6.4687 14.046 5.97082 14.3135L2.48033 16.1894V7.15411C2.48033 4.92241 4.20037 3.06785 6.42576 2.90013L6.66615 2.88201Z" fill="none"/>
+                                </svg>
+
+                                <img class="iconCross" src="img/icons/cross.svg" alt="">
+                            </div>
+                            <ul class="messangersCol">
+                                <li>
+                                    <a href="">
+                                        <svg class="iconWeChat" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15.3165 13.6922C15.8126 13.0271 16.1531 12.2592 16.3128 11.4449C16.4725 10.6307 16.4473 9.79107 16.2391 8.9879C16.0309 8.18473 15.645 7.43856 15.1099 6.80446C14.5747 6.17035 13.9041 5.66451 13.1473 5.32424C12.9825 4.3759 12.6037 3.47761 12.0397 2.69762C11.4756 1.91764 10.7412 1.27647 9.89227 0.822847C9.04331 0.369223 8.10212 0.115075 7.14021 0.0797148C6.17831 0.0443545 5.221 0.228712 4.34102 0.618779C3.46105 1.00885 2.68156 1.59436 2.06178 2.33083C1.44201 3.0673 0.998253 3.93535 0.764239 4.86903C0.530225 5.8027 0.512108 6.77743 0.711263 7.71916C0.910419 8.66089 1.32161 9.54483 1.91359 10.3038L0.813169 11.3963C0.703319 11.5077 0.628905 11.649 0.599318 11.8026C0.56973 11.9562 0.586293 12.1151 0.646919 12.2592C0.70631 12.4038 0.807166 12.5276 0.936778 12.6149C1.06639 12.7023 1.21896 12.7493 1.37525 12.7501H5.87984C6.32843 13.6958 7.0357 14.4951 7.91976 15.0556C8.80382 15.616 9.82853 15.9146 10.8753 15.9167H15.6253C15.7815 15.916 15.9341 15.8689 16.0637 15.7816C16.1933 15.6942 16.2942 15.5705 16.3536 15.4259C16.4142 15.2817 16.4308 15.1228 16.4012 14.9693C16.3716 14.8157 16.2972 14.6743 16.1873 14.563L15.3165 13.6922ZM5.33359 10.3751C5.33467 10.6402 5.35584 10.9048 5.39692 11.1667H3.28317L3.56025 10.8976C3.63445 10.824 3.69335 10.7364 3.73354 10.6399C3.77373 10.5435 3.79443 10.44 3.79443 10.3355C3.79443 10.231 3.77373 10.1275 3.73354 10.031C3.69335 9.93456 3.63445 9.847 3.56025 9.77341C3.11657 9.33459 2.76483 8.81172 2.52559 8.23537C2.28635 7.65903 2.16442 7.04076 2.16692 6.41674C2.16692 5.15696 2.66736 3.94878 3.55816 3.05798C4.44896 2.16718 5.65714 1.66674 6.91692 1.66674C7.89992 1.66083 8.86006 1.96313 9.66236 2.53113C10.4647 3.09914 11.0688 3.90429 11.3898 4.83341C11.2157 4.83341 11.0494 4.83341 10.8753 4.83341C9.40551 4.83341 7.99597 5.41726 6.9567 6.45652C5.91744 7.49579 5.33359 8.90533 5.33359 10.3751ZM13.6778 14.3334L13.7173 14.373H10.8753C9.95956 14.3714 9.07276 14.0523 8.36592 13.4702C7.65908 12.888 7.17593 12.0789 6.99877 11.1805C6.82162 10.2821 6.96142 9.35005 7.39435 8.54317C7.82729 7.73629 8.52659 7.10447 9.37311 6.75534C10.2196 6.4062 11.161 6.36136 12.0369 6.62845C12.9128 6.89554 13.6689 7.45804 14.1766 8.22012C14.6843 8.98219 14.912 9.89671 14.8211 10.8079C14.7301 11.719 14.3261 12.5705 13.6778 13.2172C13.5286 13.3633 13.4432 13.5625 13.4403 13.7713C13.4407 13.8761 13.4619 13.9797 13.5027 14.0762C13.5434 14.1727 13.603 14.2601 13.6778 14.3334Z" fill="none"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="iconWs" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.36724 33.3911L8.76998 33.0004L8.09002 33.2173C7.67666 33.3492 7.12251 33.5214 6.49304 33.717C5.6119 33.9907 4.58316 34.3103 3.5864 34.6295C3.69996 34.2695 3.81574 33.9016 3.92998 33.5356C4.36589 32.139 4.8171 30.656 4.93122 29.9866L5.03554 29.3748L4.67707 28.8681C2.67573 26.0395 1.5 22.5873 1.5 18.856C1.5 9.27056 9.27056 1.5 18.856 1.5C28.4415 1.5 36.212 9.27056 36.212 18.856C36.212 28.4415 28.4415 36.212 18.856 36.212C15.3514 36.212 12.0936 35.1749 9.36724 33.3911Z" stroke="none" stroke-width="3"/>
+                                            <path d="M28.2838 24.8242C28.2838 25.1636 28.2082 25.5124 28.0477 25.8518C27.8872 26.1912 27.6795 26.5118 27.4056 26.8135C26.943 27.3226 26.4331 27.6903 25.8571 27.926C25.2906 28.1617 24.6768 28.2842 24.0159 28.2842C23.0528 28.2842 22.0236 28.058 20.9377 27.596C19.8519 27.134 18.766 26.5118 17.6896 25.7293C16.6038 24.9373 15.5746 24.0605 14.5926 23.0894C13.6201 22.1089 12.7419 21.0812 11.9582 20.0065C11.184 18.9317 10.5608 17.8569 10.1076 16.7915C9.65435 15.7167 9.42773 14.6891 9.42773 13.7085C9.42773 13.0674 9.54104 12.4546 9.76765 11.8889C9.99426 11.3138 10.3531 10.7859 10.8535 10.3145C11.4578 9.72049 12.1188 9.42822 12.8175 9.42822C13.0819 9.42822 13.3462 9.48479 13.5823 9.59793C13.8278 9.71106 14.045 9.88077 14.2149 10.1259L16.4055 13.2089C16.5755 13.4446 16.6982 13.6614 16.7832 13.8688C16.8682 14.0668 16.9154 14.2648 16.9154 14.4439C16.9154 14.6702 16.8493 14.8965 16.7171 15.1133C16.5943 15.3302 16.4149 15.5564 16.1883 15.7827L15.4707 16.5275C15.3669 16.6312 15.3197 16.7538 15.3197 16.9046C15.3197 16.9801 15.3291 17.0461 15.348 17.1215C15.3763 17.1969 15.4046 17.2535 15.4235 17.31C15.5935 17.6212 15.8862 18.0266 16.3016 18.5168C16.7265 19.0071 17.1798 19.5068 17.6708 20.0065C18.1806 20.5061 18.6716 20.9681 19.1721 21.3924C19.6631 21.8072 20.0691 22.09 20.3901 22.2597C20.4373 22.2786 20.494 22.3069 20.5601 22.3352C20.6356 22.3635 20.7111 22.3729 20.7961 22.3729C20.9566 22.3729 21.0794 22.3163 21.1832 22.2126L21.9008 21.5055C22.1369 21.2698 22.3635 21.0907 22.5807 20.9775C22.7979 20.8455 23.015 20.7795 23.2511 20.7795C23.4305 20.7795 23.6193 20.8173 23.8271 20.9021C24.0348 20.987 24.252 21.1095 24.488 21.2698L27.6134 23.4854C27.8589 23.6551 28.0288 23.8531 28.1327 24.0888C28.2271 24.3245 28.2838 24.5602 28.2838 24.8242Z" fill="none"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <svg class="iconPhone" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 13.7475C16 14.0175 15.9399 14.295 15.8122 14.565C15.6845 14.835 15.5193 15.09 15.3015 15.33C14.9334 15.735 14.5278 16.0275 14.0696 16.215C13.6189 16.4025 13.1307 16.5 12.6049 16.5C11.8388 16.5 11.02 16.32 10.1562 15.9525C9.29244 15.585 8.42864 15.09 7.57236 14.4675C6.70856 13.8375 5.88983 13.14 5.10866 12.3675C4.335 11.5875 3.63645 10.77 3.01302 9.915C2.3971 9.06 1.90135 8.205 1.54081 7.3575C1.18027 6.5025 1 5.685 1 4.905C1 4.395 1.09014 3.9075 1.27041 3.4575C1.45068 3 1.7361 2.58 2.1342 2.205C2.61492 1.7325 3.14071 1.5 3.69654 1.5C3.90686 1.5 4.11718 1.545 4.30496 1.635C4.50025 1.725 4.67301 1.86 4.80821 2.055L6.55083 4.5075C6.68603 4.695 6.78368 4.8675 6.85128 5.0325C6.91888 5.19 6.95644 5.3475 6.95644 5.49C6.95644 5.67 6.90386 5.85 6.7987 6.0225C6.70105 6.195 6.55834 6.375 6.37807 6.555L5.80721 7.1475C5.72459 7.23 5.68703 7.3275 5.68703 7.4475C5.68703 7.5075 5.69454 7.56 5.70956 7.62C5.7321 7.68 5.75463 7.725 5.76965 7.77C5.90486 8.0175 6.13771 8.34 6.4682 8.73C6.80621 9.12 7.16675 9.5175 7.55734 9.915C7.96294 10.3125 8.35353 10.68 8.75163 11.0175C9.14221 11.3475 9.4652 11.5725 9.72058 11.7075C9.75814 11.7225 9.8032 11.745 9.85578 11.7675C9.91587 11.79 9.97596 11.7975 10.0436 11.7975C10.1713 11.7975 10.2689 11.7525 10.3515 11.67L10.9224 11.1075C11.1102 10.92 11.2904 10.7775 11.4632 10.6875C11.636 10.5825 11.8087 10.53 11.9965 10.53C12.1392 10.53 12.2894 10.56 12.4547 10.6275C12.6199 10.695 12.7927 10.7925 12.9805 10.92L15.4667 12.6825C15.662 12.8175 15.7972 12.975 15.8798 13.1625C15.9549 13.35 16 13.5375 16 13.7475Z" stroke="none" stroke-width="1.6" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="title">Выгодное предложение<br> от Dell</div>
+                        <div class="mobShow"><img src="img/transparentImg.png" alt=""></div>
+                        <div class="more">
+                            <a href="" >
+                                <svg class="iconLongArrow" width="106" height="23" viewBox="0 0 106 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M94 1L104.5 11.5M104.5 11.5L94 22M104.5 11.5H0" stroke="none" stroke-width="1.5"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="catalogShortSection">
+                <div class="contentWrapper">
+                    <div class="catalogShort">
+                        <div class="item textItem">
+                            <h2>Каталог<br class="mobHide"> товаров<br class="mobShow"> от Dell</h2>
+                            <div class="textGray">Наша компания является<br> зарегистрированным и официальным<br> партнером Dell в России.</div>
+                            <div>
+                                <a href="#">
+                                    <span class="iconBlueButton">&rarr;</span>
+                                    <span>В каталог</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item imgTopOverflow">
+                            <div class="itemNum">01</div>
+                            <div class="imgWrapper"><img src="img/cs1.png" alt=""></div>
+                            <div class="textGray">105 товаров</div>
+                            <div class="category">
+                                <a href="#">Ноутбуки</a>
+                            </div>
+                        </div>
+                        <div class="item imgTopOverflow">
+                            <div class="itemNum">02</div>
+                            <div class="imgWrapper"><img src="img/cs2.png" alt=""></div>
+                            <div class="textGray">65 товаров</div>
+                            <div class="category">
+                                <a href="#">Персональные компьютеры</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemNum">03</div>
+                            <div class="imgWrapper"><img src="img/cs3.png" alt=""></div>
+                            <div class="textGray">13 товаров</div>
+                            <div class="category">
+                                <a href="#">Cерверы</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemNum">04</div>
+                            <div class="imgWrapper"><img src="img/cs4.png" alt=""></div>
+                            <div class="textGray">2345 товаров</div>
+                            <div class="category">
+                                <a href="#">Dell EMC</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itemNum">05</div>
+                            <div class="imgWrapper"><img src="img/cs5.png" alt=""></div>
+                            <div class="textGray">195 товаров</div>
+                            <div class="category">
+                                <a href="#">Запасные части к Dell EMC</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ourAdvantages bgGray">
+                <div class="bgText smallText">best<br>quality</div>
+                <div class="contentWrapper">
+                    <div class="ourAdvantagesIntro">
+                        <div class="left">
+                            <div class="imgWrapper">
+                                <img src="img/preview1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h2>Наши преимущества</h2>
+                            <div class="textGray">
+                                Оптимизация мощностей (расходов, социальных выплат и т.п.) позволили компании на 4,7%
+                                понизить цены по сравнению с конкурентами
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <span class="iconBlueButton">&rarr;</span>
+                                    <span>Оставить заявку</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ourAdvantagesList">
+                        <div class="item">
+                            <div class="bgLine"><img src="img/bgLine.png" alt=""></div>
+                            <div class="icon"><img src="img/icons/purse.svg" alt=""></div>
+                            <h3>Самые выгодные и низкие цены</h3>
+                            <div class="textGray">В наличии широкий ассортимент,<br class="mobShow"> а также доступные цены<br class="mobShow">
+                                на ноутбуки Dell </div>
+                        </div>
+                        <div class="item">
+                            <div class="bgLine"><img src="img/bgLine.png" alt=""></div>
+                            <div class="icon"><img src="img/icons/tr.svg" alt=""></div>
+                            <h3>Авторизованный сервисный центр DELL</h3>
+                            <div class="textGray">Сертифицированный сервисный центр по ремонту техники Dell в России и странах СНГ</div>
+                        </div>
+                        <div class="item">
+                            <div class="bgLine"><img src="img/bgLine.png" alt=""></div>
+                            <div class="icon"><img src="img/icons/people.svg" alt=""></div>
+                            <h3>Высокий уровень технической экспертизы</h3>
+                            <div class="textGray">Мы прошли аттестацию в виде тестирования, где показали высокий уровень знаний</div>
+                        </div>
+                        <div class="item">
+                            <div class="bgLine"><img src="img/bgLine.png" alt=""></div>
+                            <div class="icon"><img src="img/icons/cube.svg" alt=""></div>
+                            <h3>Официальный партнер DELL</h3>
+                            <div class="textGray">Официальный поставщик продукции DELL в России
+                                и странах СНГ</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="lastNews">
+                <div class="contentWrapper lastNewsWrapper">
+                    <div class="lastNewsHeader">
+                        <div class="right">
+                            <a href="#">
+                                <span>Все новости</span>
+                                <span class="iconBlueButton">&rarr;</span>
+                            </a>
+                        </div>
+                        <h2>Последние новости</h2>
+                        <div class="textGray">Вы можете посмотреть ещё больше интересных новостей и узнать о последних<br>новинках, перейдя по кнопке</div>
+                    </div>
+                    <div class="newsList">
+                        <div class="item">
+                            <div class="newsDate">
+                                <div class="big">11</div>
+                                <div>
+                                    <span class="mobHide">июля</span><span class="mobShow">ИЮЛ</span>
+                                </div>
+                            </div>
+                            <div class="imgWrap">
+                                <img src="img/news1.png" alt="">
+                            </div>
+                            <div class="bgLayout">
+                                <a href="#" class="iconBlueButton">&rarr;</a>
+                                <div class="linkWrap">
+                                    <a href="#">GE использует технологии Dell</a>
+                                </div>
+                                <p>Вы можете посмотреть ещё больше интересных</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="newsDate">
+                                <div class="big">11</div>
+                                <div><span class="mobHide">июля</span><span class="mobShow">ИЮЛ</span></div>
+                            </div>
+                            <div class="imgWrap">
+                                <img src="img/news2.png" alt="">
+                            </div>
+                            <div class="bgLayout">
+                                <a href="#" class="iconBlueButton">&rarr;</a>
+                                <div class="linkWrap">
+                                    <a href="#">GE использует технологии Dell</a>
+                                </div>
+                                <p>Вы можете посмотреть ещё больше интересных</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="newsDate">
+                                <div class="big">11</div>
+                                <div><span class="mobHide">июля</span><span class="mobShow">ИЮЛ</span></div>
+                            </div>
+                            <div class="imgWrap">
+                                <img src="img/news3.png" alt="">
+                            </div>
+                            <div class="bgLayout">
+                                <a href="#" class="iconBlueButton">&rarr;</a>
+                                <div class="linkWrap">
+                                    <a href="#">GE использует технологии Dell</a>
+                                </div>
+                                <p>Вы можете посмотреть ещё больше интересных</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="newsDate">
+                                <div class="big">11</div>
+                                <div><span class="mobHide">июля</span><span class="mobShow">ИЮЛ</span></div>
+                            </div>
+                            <div class="imgWrap">
+                                <img src="img/news4.png" alt="">
+                            </div>
+                            <div class="bgLayout">
+                                <a href="#" class="iconBlueButton">&rarr;</a>
+                                <div class="linkWrap">
+                                    <a href="#">GE использует технологии Dell</a>
+                                </div>
+                                <p>Вы можете посмотреть ещё больше интересных</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="newsDate">
+                                <div class="big">11</div>
+                                <div><span class="mobHide">июля</span><span class="mobShow">ИЮЛ</span></div>
+                            </div>
+                            <div class="imgWrap">
+                                <img src="img/news5.png" alt="">
+                            </div>
+                            <div class="bgLayout">
+                                <a href="#" class="iconBlueButton">&rarr;</a>
+                                <div class="linkWrap">
+                                    <a href="#">GE использует технологии Dell</a>
+                                </div>
+                                <p>Вы можете посмотреть ещё больше интересных</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="newsDate">
+                                <div class="big">11</div>
+                                <div><span class="mobHide">июля</span><span class="mobShow">ИЮЛ</span></div>
+                            </div>
+                            <div class="imgWrap">
+                                <img src="img/news6.png" alt="">
+                            </div>
+                            <div class="bgLayout">
+                                <a href="#" class="iconBlueButton">&rarr;</a>
+                                <div class="linkWrap">
+                                    <a href="#">GE использует технологии Dell</a>
+                                </div>
+                                <p>Вы можете посмотреть ещё больше интересных</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="requestFormSection">
+                <div class="requestFormSectionBgLayout"></div>
+                <div class="bgText smallText mobHide">our<br>contacts</div>
+                <div class="contentWrapper">
+                    <div class="requestFormWitchContacts">
+                        <div class="ourContacts">
+                            <h2>Наши контакты</h2>
+                            <div class="textGray">Вы можете связаться с нашим онлайн-консультантом</div>
+                            <div class="bgLayout"><img src="img/phone.png" alt=""></div>
+                            <ul class="contactsList">
+                                <li>
+                                    <div class="title"><span class="icon"><img src="img/icons/location.svg" alt=""></span>Адрес</div>
+                                    <p>Москва, ул. 3-я Хорошевская, дом 2, строение 1</p>
+                                </li>
+                                <li>
+                                    <div class="title"><span class="icon"><img src="img/icons/sms.svg" alt=""></span>E-mail</div>
+                                    <p><a href="mailto:dell_ru@gmail.com">dell_ru@gmail.com</a></p>
+                                </li>
+                                <li>
+                                    <div class="title"><span class="icon"><img src="img/icons/call-calling.svg" alt=""></span>Телефон</div>
+                                    <p>+7 495 737-06-01<br>+7 495 737-06-01</p>
+                                </li>
+                            </ul>
+                            <ul class="socLinks">
+                                <li>
+                                    <a href="#">
+                                        <svg class="iconFb" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.95184 10.9546L9.44046 7.56788H6.38389V5.37106C6.38389 4.44451 6.81095 3.54038 8.17995 3.54038H9.56961V0.657058C9.56961 0.657058 8.30846 0.428223 7.10262 0.428223C4.58525 0.428223 2.93987 2.05021 2.93987 4.98662V7.56788H0.141602V10.9546H2.93987V19.1419C4.08094 19.3317 5.24282 19.3317 6.38389 19.1419V10.9546H8.95184Z" fill="none"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="noStyle">
+                                    <a href="#">
+                                        <svg class="iconWs" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.36724 33.3911L8.76998 33.0004L8.09002 33.2173C7.67666 33.3492 7.12251 33.5214 6.49304 33.717C5.6119 33.9907 4.58316 34.3103 3.5864 34.6295C3.69996 34.2695 3.81574 33.9016 3.92998 33.5356C4.36589 32.139 4.8171 30.656 4.93122 29.9866L5.03554 29.3748L4.67707 28.8681C2.67573 26.0395 1.5 22.5873 1.5 18.856C1.5 9.27056 9.27056 1.5 18.856 1.5C28.4415 1.5 36.212 9.27056 36.212 18.856C36.212 28.4415 28.4415 36.212 18.856 36.212C15.3514 36.212 12.0936 35.1749 9.36724 33.3911Z" stroke="none" stroke-width="3"/>
+                                            <path d="M28.2838 24.8242C28.2838 25.1636 28.2082 25.5124 28.0477 25.8518C27.8872 26.1912 27.6795 26.5118 27.4056 26.8135C26.943 27.3226 26.4331 27.6903 25.8571 27.926C25.2906 28.1617 24.6768 28.2842 24.0159 28.2842C23.0528 28.2842 22.0236 28.058 20.9377 27.596C19.8519 27.134 18.766 26.5118 17.6896 25.7293C16.6038 24.9373 15.5746 24.0605 14.5926 23.0894C13.6201 22.1089 12.7419 21.0812 11.9582 20.0065C11.184 18.9317 10.5608 17.8569 10.1076 16.7915C9.65435 15.7167 9.42773 14.6891 9.42773 13.7085C9.42773 13.0674 9.54104 12.4546 9.76765 11.8889C9.99426 11.3138 10.3531 10.7859 10.8535 10.3145C11.4578 9.72049 12.1188 9.42822 12.8175 9.42822C13.0819 9.42822 13.3462 9.48479 13.5823 9.59793C13.8278 9.71106 14.045 9.88077 14.2149 10.1259L16.4055 13.2089C16.5755 13.4446 16.6982 13.6614 16.7832 13.8688C16.8682 14.0668 16.9154 14.2648 16.9154 14.4439C16.9154 14.6702 16.8493 14.8965 16.7171 15.1133C16.5943 15.3302 16.4149 15.5564 16.1883 15.7827L15.4707 16.5275C15.3669 16.6312 15.3197 16.7538 15.3197 16.9046C15.3197 16.9801 15.3291 17.0461 15.348 17.1215C15.3763 17.1969 15.4046 17.2535 15.4235 17.31C15.5935 17.6212 15.8862 18.0266 16.3016 18.5168C16.7265 19.0071 17.1798 19.5068 17.6708 20.0065C18.1806 20.5061 18.6716 20.9681 19.1721 21.3924C19.6631 21.8072 20.0691 22.09 20.3901 22.2597C20.4373 22.2786 20.494 22.3069 20.5601 22.3352C20.6356 22.3635 20.7111 22.3729 20.7961 22.3729C20.9566 22.3729 21.0794 22.3163 21.1832 22.2126L21.9008 21.5055C22.1369 21.2698 22.3635 21.0907 22.5807 20.9775C22.7979 20.8455 23.015 20.7795 23.2511 20.7795C23.4305 20.7795 23.6193 20.8173 23.8271 20.9021C24.0348 20.987 24.252 21.1095 24.488 21.2698L27.6134 23.4854C27.8589 23.6551 28.0288 23.8531 28.1327 24.0888C28.2271 24.3245 28.2838 24.5602 28.2838 24.8242Z" fill="none"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="requestForm">
+                            <h2>Оставьте заявку</h2>
+                            <p>Оставьте свой номер, и мы перезвоним Вам.</p>
+                            <form id="form1">
+                                <div>
+                                    <label>Ваше имя</label>
+                                    <input type="text" name="name">
+                                </div>
+                                <div>
+                                    <label>Номер телефона</label>
+                                    <input type="text" name="phone">
+                                </div>
+                                <div>
+                                    <label>Комментарий</label>
+                                    <textarea name="message"></textarea>
+                                </div>
+                                <div>
+                                    <a href="" class="js-submitForm" form_id="form1">
+                                        <span class="iconBlueButton">&rarr;</span>
+                                        <span>Заказать</span>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="bgText smallText">dell</div>
+            <div class="contentWrapper">
+                <div class="logoMain">
+                    <a href="/"><img src="img/icons/logo.svg" alt=""></a>
+                </div>
+                <div class="footerNav">
+                    <ul class="fnCatalog">
+                        <li class="title">Каталог</li>
+                        <li><a href="#">Ноутбуки</a></li>
+                        <li><a href="#">Персональные компьютеры</a></li>
+                        <li class="lessMargin"><a href="#">Серверы</a></li>
+                        <li><a href="#">Dell EMC</a></li>
+                        <li class="lessMargin"><a href="#">Запасные части к Dell EMC</a></li>
+                    </ul>
+                    <ul class="fnProfile">
+                        <li class="title">Личный кабинет</li>
+                        <li><a href="#">Профиль</a></li>
+                        <li><a href="#">История заказов</a></li>
+                        <li><a href="#">SMS-уведомления</a></li>
+                        <li><a href="#">Избранное</a></li>
+                        <li><a href="#">Сравнение товаров</a></li>
+                    </ul>
+                    <ul class="fnHelp">
+                        <li class="title">Помощь</li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Наш АСЦ</a></li>
+                    </ul>
+                </div>
+                <div class="clearFix"></div>
+                <div class="contactsRow">
+                    <div>
+                        <div class="title">Адрес</div>
+                        <div>Москва, ул. 3-я Хорошевская, дом 2, строение 1</div>
+                    </div>
+                    <div>
+                        <div class="title">Телефон</div>
+                        <div>+7 495 737-06-01, +7 495 737-06-01</div>
+                    </div>
+                    <div>
+                        <div class="title">E-mail</div>
+                        <div><a href="mailto:dell_ru@gmail.com">dell_ru@gmail.com</a></div>
+                    </div>
+                    <ul class="socLinks">
+                        <li>
+                            <a href="#">
+                                <svg class="iconFb" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.95184 10.9546L9.44046 7.56788H6.38389V5.37106C6.38389 4.44451 6.81095 3.54038 8.17995 3.54038H9.56961V0.657058C9.56961 0.657058 8.30846 0.428223 7.10262 0.428223C4.58525 0.428223 2.93987 2.05021 2.93987 4.98662V7.56788H0.141602V10.9546H2.93987V19.1419C4.08094 19.3317 5.24282 19.3317 6.38389 19.1419V10.9546H8.95184Z" fill="none"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="noStyle">
+                            <a href="#">
+                                <svg class="iconWs" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.36724 33.3911L8.76998 33.0004L8.09002 33.2173C7.67666 33.3492 7.12251 33.5214 6.49304 33.717C5.6119 33.9907 4.58316 34.3103 3.5864 34.6295C3.69996 34.2695 3.81574 33.9016 3.92998 33.5356C4.36589 32.139 4.8171 30.656 4.93122 29.9866L5.03554 29.3748L4.67707 28.8681C2.67573 26.0395 1.5 22.5873 1.5 18.856C1.5 9.27056 9.27056 1.5 18.856 1.5C28.4415 1.5 36.212 9.27056 36.212 18.856C36.212 28.4415 28.4415 36.212 18.856 36.212C15.3514 36.212 12.0936 35.1749 9.36724 33.3911Z" stroke="none" stroke-width="3"/>
+                                    <path d="M28.2838 24.8242C28.2838 25.1636 28.2082 25.5124 28.0477 25.8518C27.8872 26.1912 27.6795 26.5118 27.4056 26.8135C26.943 27.3226 26.4331 27.6903 25.8571 27.926C25.2906 28.1617 24.6768 28.2842 24.0159 28.2842C23.0528 28.2842 22.0236 28.058 20.9377 27.596C19.8519 27.134 18.766 26.5118 17.6896 25.7293C16.6038 24.9373 15.5746 24.0605 14.5926 23.0894C13.6201 22.1089 12.7419 21.0812 11.9582 20.0065C11.184 18.9317 10.5608 17.8569 10.1076 16.7915C9.65435 15.7167 9.42773 14.6891 9.42773 13.7085C9.42773 13.0674 9.54104 12.4546 9.76765 11.8889C9.99426 11.3138 10.3531 10.7859 10.8535 10.3145C11.4578 9.72049 12.1188 9.42822 12.8175 9.42822C13.0819 9.42822 13.3462 9.48479 13.5823 9.59793C13.8278 9.71106 14.045 9.88077 14.2149 10.1259L16.4055 13.2089C16.5755 13.4446 16.6982 13.6614 16.7832 13.8688C16.8682 14.0668 16.9154 14.2648 16.9154 14.4439C16.9154 14.6702 16.8493 14.8965 16.7171 15.1133C16.5943 15.3302 16.4149 15.5564 16.1883 15.7827L15.4707 16.5275C15.3669 16.6312 15.3197 16.7538 15.3197 16.9046C15.3197 16.9801 15.3291 17.0461 15.348 17.1215C15.3763 17.1969 15.4046 17.2535 15.4235 17.31C15.5935 17.6212 15.8862 18.0266 16.3016 18.5168C16.7265 19.0071 17.1798 19.5068 17.6708 20.0065C18.1806 20.5061 18.6716 20.9681 19.1721 21.3924C19.6631 21.8072 20.0691 22.09 20.3901 22.2597C20.4373 22.2786 20.494 22.3069 20.5601 22.3352C20.6356 22.3635 20.7111 22.3729 20.7961 22.3729C20.9566 22.3729 21.0794 22.3163 21.1832 22.2126L21.9008 21.5055C22.1369 21.2698 22.3635 21.0907 22.5807 20.9775C22.7979 20.8455 23.015 20.7795 23.2511 20.7795C23.4305 20.7795 23.6193 20.8173 23.8271 20.9021C24.0348 20.987 24.252 21.1095 24.488 21.2698L27.6134 23.4854C27.8589 23.6551 28.0288 23.8531 28.1327 24.0888C28.2271 24.3245 28.2838 24.5602 28.2838 24.8242Z" fill="none"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
