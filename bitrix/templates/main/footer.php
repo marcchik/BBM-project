@@ -2,7 +2,7 @@
             <div class="bgText smallText">dell</div>
             <div class="contentWrapper">
                 <div class="logoMain">
-                    <a href="/"><img src="img/icons/logo.svg" alt=""></a>
+                    <a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/logo.svg" alt=""></a>
                 </div>
                 <div class="footerNav">
                     <ul class="fnCatalog">

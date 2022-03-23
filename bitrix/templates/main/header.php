@@ -3,7 +3,27 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Dell</title>
+    <title><?=$APPLICATION->ShowTitle() ?></title>
+    <?$APPLICATION->ShowHead();?>
+
+    <!--    подключение стилей-->
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/style.css");?>
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/animate-slider.css");?>
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/animate.min.css");?>
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/js/jq-ui-1.13.0/jquery-ui.css");?>
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/js/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css");?>
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/js/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css");?>
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/js/plugins/swiper/swiper.min.css");?>
+    <?$APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/js/plugins/tingle-master/src/tingle.css");?>
+
+    <!--    подключение скриптов    -->
+    <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/jq/jquery.js");?>
+    <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/jq-ui-1.13.0/jquery-ui.min.js");?>
+    <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js");?>
+    <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/plugins/swiper/swiper.min.js");?>
+    <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/plugins/tingle-master/src/tingle.js");?>
+    <?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . "/js/index.js");?>
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,21 +32,6 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate-slider.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="js/jq-ui-1.13.0/jquery-ui.css">
-    <link rel="stylesheet" href="js/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-    <link rel="stylesheet" href="js/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="js/plugins/swiper/swiper.min.css">
-    <link rel="stylesheet" href="js/plugins/tingle-master/src/tingle.css">
-
-    <script src="js/jq/jquery.js"></script>
-    <script src="js/jq-ui-1.13.0/jquery-ui.min.js"></script>
-    <script src="js/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <script src="js/plugins/swiper/swiper.min.js"></script>
-    <script src="js/plugins/tingle-master/src/tingle.js"></script>
-    <script src="js/index.js"></script>
 </head>
 <body>
     <div class="container">
@@ -34,13 +39,13 @@
         <div class="contentWrapper">
             <div class="left">
                 <div class="logoMain">
-                    <a href="/"><img src="img/icons/logo.svg" alt=""></a>
+                    <a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/logo.svg" alt=""></a>
                 </div>
                 <input id="toggleMenu" type="checkbox">
                 <nav class="headerMenu">
                     <div class="mobileHeader mobShow">
                         <span>Меню</span>
-                        <img class="iconCross" src="img/icons/crossMobile.svg" alt="">
+                        <img class="iconCross" src="<?=SITE_TEMPLATE_PATH?>/img/icons/crossMobile.svg" alt="">
                     </div>
                     <div class="noAuth">
                         <div class="text">Привет, гость!</div>
@@ -65,19 +70,19 @@
                                 <div class="autocomplitItems">
                                     <div class="item">
                                         <div class="imgWrap">
-                                            <img src="img/cs1.png" alt="">
+                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
                                         </div>
                                         <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
                                     </div>
                                     <div class="item">
                                         <div class="imgWrap">
-                                            <img src="img/cs1.png" alt="">
+                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
                                         </div>
                                         <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
                                     </div>
                                     <div class="item">
                                         <div class="imgWrap">
-                                            <img src="img/cs1.png" alt="">
+                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
                                         </div>
                                         <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
                                     </div>
@@ -105,19 +110,19 @@
                                 <div class="autocomplitItems">
                                     <div class="item">
                                         <div class="imgWrap">
-                                            <img src="img/cs1.png" alt="">
+                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
                                         </div>
                                         <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
                                     </div>
                                     <div class="item">
                                         <div class="imgWrap">
-                                            <img src="img/cs1.png" alt="">
+                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
                                         </div>
                                         <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
                                     </div>
                                     <div class="item">
                                         <div class="imgWrap">
-                                            <img src="img/cs1.png" alt="">
+                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
                                         </div>
                                         <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
                                     </div>
@@ -162,7 +167,7 @@
                             </a>
                         </li>
                         <li class="mobMenu mobShow">
-                            <img class="iconMenu" src="img/icons/menu.svg" alt="">
+                            <img class="iconMenu" src="<?=SITE_TEMPLATE_PATH?>/img/icons/menu.svg" alt="">
                         </li>
                     </ul>
                 </div>
