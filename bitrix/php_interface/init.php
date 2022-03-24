@@ -1,7 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Марк
- * Date: 24.03.2022
- * Time: 13:54
- */
+
+
+
+function pr($array) {
+    echo "<pre>";
+    print_r($array);
+    echo "</pre>";
+}

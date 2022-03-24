@@ -1,5 +1,5 @@
 <?
-require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Dell");
 ?><div class="pageContent">
  <section class="bestPrices bgGray main">
@@ -9,107 +9,70 @@ $APPLICATION->SetTitle("Dell");
 		</div>
 		<div class="left">
 			<div class="owl-carousel introSlider">
-				<div class="item">
-					<div class="info">
- <a href="" class="verticalButton mobHide">
-						Scroll to catalog <img src="/bitrix/templates/main/img/icons/scroll.svg" alt=""> </a>
-						<div class="textGray">
-							 Новое поступление
-						</div>
-						<div class="title">
-							 Лучшие товары от компании Dell
-						</div>
-						<div>
- <a href="#"> <span class="iconBlueButton">→</span>
-							Подробнее </a>
-						</div>
-					</div>
-					<div class="imgWrapper">
- <img src="/bitrix/templates/main/img/sliderItem1.png" alt="">
-					</div>
-				</div>
-				<div class="item">
-					<div class="info">
- <a href="" class="verticalButton mobHide">
-						Scroll to catalog <img src="/bitrix/templates/main/img/icons/scroll.svg" alt=""> </a>
-						<div class="textGray">
-							 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, vero.
-						</div>
-						<div class="title">
-							 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ipsa.
-						</div>
-						<div>
- <a href="#"> <span class="iconBlueButton">→</span>
-							Подробнее </a>
-						</div>
-					</div>
-					<div class="imgWrapper">
- <img src="/bitrix/templates/main/img/cs1.png" alt="">
-					</div>
-				</div>
-				<div class="item">
-					<div class="info">
- <a href="" class="verticalButton mobHide">
-						Scroll to catalog <img src="/bitrix/templates/main/img/icons/scroll.svg" alt=""> </a>
-						<div class="textGray">
-							 Lorem ipsum.
-						</div>
-						<div class="title">
-							 Lorem.
-						</div>
-						<div>
- <a href="#"> <span class="iconBlueButton">→</span>
-							Подробнее </a>
-						</div>
-					</div>
-					<div class="imgWrapper">
- <img src="/bitrix/templates/main/img/cs5.png" alt="">
-					</div>
-				</div>
-				<div class="item">
-					<div class="info">
- <a href="" class="verticalButton mobHide">
-						Scroll to catalog <img src="/bitrix/templates/main/img/icons/scroll.svg" alt=""> </a>
-						<div class="textGray">
-							 Lorem ipsum dolor sit amet.
-						</div>
-						<div class="title">
-							 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ipsa.
-						</div>
-						<div>
- <a href="#"> <span class="iconBlueButton">→</span>
-							Подробнее </a>
-						</div>
-					</div>
-					<div class="imgWrapper">
- <img src="/bitrix/templates/main/img/cs2.png" alt="">
-					</div>
-				</div>
-				<div class="item">
-					<div class="info">
- <a href="" class="verticalButton mobHide">
-						Scroll to catalog <img src="/bitrix/templates/main/img/icons/scroll.svg" alt=""> </a>
-						<div class="textGray">
-							 Lorem ipsum dolor sit amet.
-						</div>
-						<div class="title">
-							 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, ipsa.
-						</div>
-						<div>
- <a href="#"> <span class="iconBlueButton">→</span>
-							Подробнее </a>
-						</div>
-					</div>
-					<div class="imgWrapper">
- <img src="/bitrix/templates/main/img/cs3.png" alt="">
-					</div>
-				</div>
+				 <?$APPLICATION->IncludeComponent(
+	"bitrix:news.list",
+	"home_slider",
+	Array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"COMPONENT_TEMPLATE" => "home_slider",
+		"DETAIL_URL" => "",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"FIELD_CODE" => array(0=>"",1=>"",),
+		"FILTER_NAME" => "",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"IBLOCK_ID" => "6",
+		"IBLOCK_TYPE" => "page_home",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"MESSAGE_404" => "",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Новости",
+		"PARENT_SECTION" => "",
+		"PARENT_SECTION_CODE" => "",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"PROPERTY_CODE" => array(0=>"BIG_HEADER",1=>"",),
+		"SET_BROWSER_TITLE" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "Y",
+		"SET_META_KEYWORDS" => "Y",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "N",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"STRICT_SECTION_CHECK" => "N"
+	)
+);?>
 			</div>
 		</div>
 		<div class="right">
 			<div class="messengerLink">
 				<div class="icon">
- <img src="/bitrix/templates/main/img/icons/cross.svg" class="iconCross" alt="">
+ <img src="img/icons/cross.svg" class="iconCross" alt="">
 				</div>
 				<ul class="messangersCol">
 					<li> <a href=""> </a> </li>
@@ -122,7 +85,7 @@ $APPLICATION->SetTitle("Dell");
 				 от Dell
 			</div>
 			<div class="mobShow">
- <img src="/bitrix/templates/main/img/transparentImg.png" alt="">
+ <img src="img/transparentImg.png" alt="">
 			</div>
 			<div class="more">
  <a href=""> </a>
@@ -242,56 +205,64 @@ $APPLICATION->SetTitle("Dell");
 			</div>
 		</div>
 		<div class="ourAdvantagesList">
-			<div class="item">
-				<div class="bgLine">
- <img src="/bitrix/templates/main/img/bgLine.png" alt="">
-				</div>
-				<div class="icon">
- <img src="/bitrix/templates/main/img/icons/purse.svg" alt="">
-				</div>
-				<h3>Самые выгодные и низкие цены</h3>
-				<div class="textGray">
-					 В наличии широкий ассортимент,<br class="mobShow">
-					 а также доступные цены<br class="mobShow">
-					 на ноутбуки Dell
-				</div>
-			</div>
-			<div class="item">
-				<div class="bgLine">
- <img src="/bitrix/templates/main/img/bgLine.png" alt="">
-				</div>
-				<div class="icon">
- <img src="/bitrix/templates/main/img/icons/tr.svg" alt="">
-				</div>
-				<h3>Авторизованный сервисный центр DELL</h3>
-				<div class="textGray">
-					 Сертифицированный сервисный центр по&nbsp;ремонту техники Dell в&nbsp;России и&nbsp;странах&nbsp;СНГ
-				</div>
-			</div>
-			<div class="item">
-				<div class="bgLine">
- <img src="/bitrix/templates/main/img/bgLine.png" alt="">
-				</div>
-				<div class="icon">
- <img src="/bitrix/templates/main/img/icons/people.svg" alt="">
-				</div>
-				<h3>Высокий уровень технической экспертизы</h3>
-				<div class="textGray">
-					 Мы&nbsp;прошли аттестацию в виде тестирования, где&nbsp;показали высокий уровень знаний
-				</div>
-			</div>
-			<div class="item">
-				<div class="bgLine">
- <img src="/bitrix/templates/main/img/bgLine.png" alt="">
-				</div>
-				<div class="icon">
- <img src="/bitrix/templates/main/img/icons/cube.svg" alt="">
-				</div>
-				<h3>Официальный партнер DELL</h3>
-				<div class="textGray">
-					 Официальный поставщик продукции DELL в&nbsp;России и странах&nbsp;СНГ
-				</div>
-			</div>
+			 <?$APPLICATION->IncludeComponent(
+	"bitrix:news.list",
+	"advantage",
+	Array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"ADD_SECTIONS_CHAIN" => "Y",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "Y",
+		"COMPONENT_TEMPLATE" => "advantage",
+		"DETAIL_URL" => "",
+		"DISPLAY_BOTTOM_PAGER" => "Y",
+		"DISPLAY_DATE" => "Y",
+		"DISPLAY_NAME" => "Y",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "Y",
+		"DISPLAY_TOP_PAGER" => "N",
+		"FIELD_CODE" => array(0=>"",1=>"",),
+		"FILTER_NAME" => "",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"IBLOCK_ID" => "7",
+		"IBLOCK_TYPE" => "page_home",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+		"INCLUDE_SUBSECTIONS" => "Y",
+		"MESSAGE_404" => "",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Новости",
+		"PARENT_SECTION" => "",
+		"PARENT_SECTION_CODE" => "",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"PROPERTY_CODE" => array(0=>"DESCRIPTION",1=>"BIG_HEADER",2=>"",),
+		"SET_BROWSER_TITLE" => "Y",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "Y",
+		"SET_META_KEYWORDS" => "Y",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "Y",
+		"SHOW_404" => "N",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"STRICT_SECTION_CHECK" => "N"
+	)
+);?>
 		</div>
 	</div>
  </section> <section class="lastNews">
@@ -487,8 +458,8 @@ $APPLICATION->SetTitle("Dell");
  </li>
 				</ul>
 				<ul class="socLinks">
-					<li> <a href="#"> </a> </li>
-					<li class="noStyle"> <a href="#"> </a> </li>
+					<li><a href="#"> </a></li>
+					<li class="noStyle"><a href="#"> </a></li>
 				</ul>
 			</div>
 			<div class="requestForm">
@@ -516,4 +487,4 @@ $APPLICATION->SetTitle("Dell");
 	</div>
  </section>
 </div>
- <br><? require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php"); ?>
+ <br><? require_once($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

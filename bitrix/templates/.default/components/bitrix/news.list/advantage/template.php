@@ -6,7 +6,7 @@
     $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
     ?>
 
-    <div class="item">
+    <div class="item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
         <!--проверка на существование картинки-->
         <? if(isset($arItem["PREVIEW_PICTURE"])): ?>
             <div class="bgLine">

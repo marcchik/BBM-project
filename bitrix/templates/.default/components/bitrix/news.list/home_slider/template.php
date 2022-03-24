@@ -6,7 +6,7 @@
     $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
     ?>
 
-    <div class="item">
+    <div class="item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
         <div class="info">
             <a href="" class="verticalButton mobHide">
                 Scroll to catalog <img src="/bitrix/templates/main/img/icons/scroll.svg" alt="">&nbsp;</a>
@@ -31,9 +31,9 @@
             </div>
         </div>
         <!--проверка на существование картинки-->
-        <? if(isset($arItem["PREVIEW_PICTURE"])): ?>
+        <? if(isset($arItem["PREVIEW_PICTURE"]['SRC'])): ?>
             <div class="imgWrapper">
-                <img src="<?=$arItem['PREVIEW_PICTURE']['SRC']?>" alt="<?=$arItem['ALT']?>">
+                <img src="<?=$arItem['PREVIEW_PICTURE']['SRC']?>" alt="<?=$arItem['PREVIEW_PICTURE']['ALT']?>">
             </div>
         <? endif ?>
     </div>
