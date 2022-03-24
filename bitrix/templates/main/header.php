@@ -34,7 +34,9 @@
 
 </head>
 <body>
-    <div class="container">
+<div id="panel"><?= $APPLICATION->ShowPanel() ?></div>
+
+<div class="container">
     <header>
         <div class="contentWrapper">
             <div class="left">
@@ -42,60 +44,23 @@
                     <a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/icons/logo.svg" alt=""></a>
                 </div>
                 <input id="toggleMenu" type="checkbox">
-                <nav class="headerMenu">
-                    <div class="mobileHeader mobShow">
-                        <span>Меню</span>
-                        <img class="iconCross" src="<?=SITE_TEMPLATE_PATH?>/img/icons/crossMobile.svg" alt="">
-                    </div>
-                    <div class="noAuth">
-                        <div class="text">Привет, гость!</div>
-                        <div class="authActions">
-                            <a class="buttonBlue" href="#">Войти</a>
-                            <a class="buttonBlue" href="#">Регистрация</a>
-                        </div>
-                    </div>
-                    <ul>
-                        <li><a href="#" class="active">главная</a></li>
-                        <li><a href="#">каталог</a></li>
-                        <li><a href="#">новости</a></li>
-                        <li><a href="#">наш асц</a></li>
-                        <li><a href="#">контакты</a></li>
-                        <li class="mobHide posRelative">
-                            <a href="#" class="iconSearch js-openSearch"></a>
-                            <div class="searchBox">
-                                <div class="searchActive">
-                                    <input type="text" name="">
-                                    <span class="iconBlueButton">→</span>
-                                </div>
-                                <div class="autocomplitItems">
-                                    <div class="item">
-                                        <div class="imgWrap">
-                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
-                                        </div>
-                                        <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="imgWrap">
-                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
-                                        </div>
-                                        <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="imgWrap">
-                                            <img src="<?=SITE_TEMPLATE_PATH?>/img/cs1.png" alt="">
-                                        </div>
-                                        <div class="itemName">Ноутбук Macbook PRO 13 2021</div>
-                                    </div>
-                                    <div class="item empty">
-                                        <div class="imgWrap"></div>
-                                        <div class="itemName">Ничего не найдено</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
-                    </ul>
-                </nav>
+                <!--верхнее меню-->
+                <?$APPLICATION->IncludeComponent(
+                    "bitrix:menu",
+                    "horizontal_multilevel",
+                    Array(
+                        "ALLOW_MULTI_SELECT" => "N",
+                        "CHILD_MENU_TYPE" => "left",
+                        "DELAY" => "N",
+                        "MAX_LEVEL" => "1",
+                        "MENU_CACHE_GET_VARS" => array(""),
+                        "MENU_CACHE_TIME" => "3600",
+                        "MENU_CACHE_TYPE" => "N",
+                        "MENU_CACHE_USE_GROUPS" => "Y",
+                        "ROOT_MENU_TYPE" => "top",
+                        "USE_EXT" => "N"
+                    )
+                );?>
             </div>
             <div class="right">
                 <div class="userActions">
