@@ -9,7 +9,9 @@
     <div class="item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
         <div class="info">
             <a href="" class="verticalButton mobHide">
-                Scroll to catalog <img src="/bitrix/templates/main/img/icons/scroll.svg" alt=""> </a>
+                <span>Scroll to catalog</span>
+                <img src="<?=SITE_TEMPLATE_PATH?>/img/icons/scroll.svg" alt="">
+            </a>
 
             <!--проверка на существование большого заголовка-->
             <? if(isset($arItem['PROPERTIES']['BIG_HEADER']['VALUE'])): ?>
