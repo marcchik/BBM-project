@@ -67,7 +67,7 @@ $APPLICATION->SetTitle("Контакты");
                                 "SET_META_DESCRIPTION" => "Y",
                                 "SET_META_KEYWORDS" => "Y",
                                 "SET_STATUS_404" => "N",
-                                "SET_TITLE" => "Y",
+                                "SET_TITLE" => "N",
                                 "SHOW_404" => "N",
                                 "SORT_BY1" => "ACTIVE_FROM",
                                 "SORT_BY2" => "SORT",
@@ -188,7 +188,7 @@ $APPLICATION->SetTitle("Контакты");
             "SET_META_DESCRIPTION" => "Y",    // Устанавливать описание страницы
             "SET_META_KEYWORDS" => "Y",    // Устанавливать ключевые слова страницы
             "SET_STATUS_404" => "N",    // Устанавливать статус 404
-            "SET_TITLE" => "Y",    // Устанавливать заголовок страницы
+            "SET_TITLE" => "N",    // Устанавливать заголовок страницы
             "SHOW_404" => "N",    // Показ специальной страницы
             "SORT_BY1" => "ACTIVE_FROM",    // Поле для первой сортировки новостей
             "SORT_BY2" => "SORT",    // Поле для второй сортировки новостей
