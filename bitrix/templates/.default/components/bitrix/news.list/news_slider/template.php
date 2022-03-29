@@ -67,7 +67,8 @@
         <!--проверка на существование маленького заголовка-->
         <? if(isset($arItem['PROPERTIES']['SMALL_HEADER']['VALUE'])): ?>
             <div class="textGray">
-                <?=$arItem['PROPERTIES']['SMALL_HEADER']['VALUE']?>
+                <?=substr($arItem['PROPERTIES']['SMALL_HEADER']['VALUE'],0, 87)?><br>
+                <?=substr($arItem['PROPERTIES']['SMALL_HEADER']['VALUE'],87)?>
             </div>
         <? endif ?>
     </div>
