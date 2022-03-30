@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="592cbf05-2f15-4f34-bf5d-a4d88024ce3a" name="Default" comment="feat: IB news_slider and refactoring">
+    <list default="true" id="592cbf05-2f15-4f34-bf5d-a4d88024ce3a" name="Default" comment="refactor: news">
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.detail/news_detail/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.detail/news_detail/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.detail/news_detail/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.detail/news_detail/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.detail/news_detail/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.detail/news_detail/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.detail/news_detail/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news/lang/en/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news/lang/en/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news/lang/ru/.parameters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news/lang/ru/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/detail/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news_slider/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/news_slider/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news/bitrix/news.detail/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/news/bitrix/news.detail/.default/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/news/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,7 +444,8 @@
       <option name="presentableId" value="Default" />
       <updated>1645818920125</updated>
       <workItem from="1648580611592" duration="85000" />
-      <workItem from="1648581864222" duration="4882000" />
+      <workItem from="1648581864222" duration="5001000" />
+      <workItem from="1648645281506" duration="5869000" />
     </task>
     <task id="LOCAL-00001" summary="start bitrix template">
       <created>1646258244754</created>
@@ -488,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648583948304</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor: news">
+      <created>1648586898225</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648586898225</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -554,7 +576,8 @@
     <MESSAGE value="update pages 2" />
     <MESSAGE value="Load 3D" />
     <MESSAGE value="feat: IB news_slider and refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: IB news_slider and refactoring" />
+    <MESSAGE value="refactor: news" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: news" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/front-end/Load_3D/assets/models/Parrot.glb">
