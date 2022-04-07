@@ -638,22 +638,16 @@ $APPLICATION->SetTitle("Каталог");
                         "COMMON_ADD_TO_BASKET_ACTION" => "ADD",
                         "COMMON_SHOW_CLOSE_POPUP" => "N",
                         "COMPATIBLE_MODE" => "Y",
+                        "COMPONENT_TEMPLATE" => "catalog",
                         "CONVERT_CURRENCY" => "N",
                         "DETAIL_ADD_DETAIL_TO_SLIDER" => "N",
-                        "DETAIL_ADD_TO_BASKET_ACTION" => array(
-                            0 => "BUY",
-                        ),
-                        "DETAIL_ADD_TO_BASKET_ACTION_PRIMARY" => array(
-                            0 => "BUY",
-                        ),
+                        "DETAIL_ADD_TO_BASKET_ACTION" => array(0 => "BUY",),
+                        "DETAIL_ADD_TO_BASKET_ACTION_PRIMARY" => array(0 => "BUY",),
                         "DETAIL_BACKGROUND_IMAGE" => "-",
                         "DETAIL_BRAND_USE" => "N",
                         "DETAIL_BROWSER_TITLE" => "-",
                         "DETAIL_CHECK_SECTION_ID_VARIABLE" => "N",
-                        "DETAIL_DETAIL_PICTURE_MODE" => array(
-                            0 => "POPUP",
-                            1 => "MAGNIFIER",
-                        ),
+                        "DETAIL_DETAIL_PICTURE_MODE" => array(0 => "POPUP", 1 => "MAGNIFIER",),
                         "DETAIL_DISPLAY_NAME" => "Y",
                         "DETAIL_DISPLAY_PREVIEW_TEXT_MODE" => "E",
                         "DETAIL_IMAGE_RESOLUTION" => "16by9",
@@ -780,7 +774,13 @@ $APPLICATION->SetTitle("Каталог");
                         "TOP_ELEMENT_SORT_FIELD2" => "id",
                         "TOP_ELEMENT_SORT_ORDER" => "asc",
                         "TOP_ELEMENT_SORT_ORDER2" => "desc",
+                        "TOP_ENLARGE_PRODUCT" => "STRICT",
                         "TOP_LINE_ELEMENT_COUNT" => "3",
+                        "TOP_PRODUCT_BLOCKS_ORDER" => "price,props,sku,quantityLimit,quantity,buttons",
+                        "TOP_PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false}]",
+                        "TOP_SHOW_SLIDER" => "Y",
+                        "TOP_SLIDER_INTERVAL" => "3000",
+                        "TOP_SLIDER_PROGRESS" => "N",
                         "TOP_VIEW_MODE" => "SECTION",
                         "USER_CONSENT" => "N",
                         "USER_CONSENT_ID" => "0",
@@ -801,19 +801,8 @@ $APPLICATION->SetTitle("Каталог");
                         "USE_REVIEW" => "N",
                         "USE_SALE_BESTSELLERS" => "Y",
                         "USE_STORE" => "N",
-                        "COMPONENT_TEMPLATE" => "catalog",
-                        "TOP_PRODUCT_BLOCKS_ORDER" => "price,props,sku,quantityLimit,quantity,buttons",
-                        "TOP_PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false},{'VARIANT':'2','BIG_DATA':false}]",
-                        "TOP_ENLARGE_PRODUCT" => "STRICT",
-                        "TOP_SHOW_SLIDER" => "Y",
-                        "TOP_SLIDER_INTERVAL" => "3000",
-                        "TOP_SLIDER_PROGRESS" => "N",
-                        "VARIABLE_ALIASES" => array(
-                            "ELEMENT_ID" => "ELEMENT_ID",
-                            "SECTION_ID" => "SECTION_ID",
-                        )
-                    ),
-                    false
+                        "VARIABLE_ALIASES" => array("ELEMENT_ID" => "ELEMENT_ID", "SECTION_ID" => "SECTION_ID",)
+                    )
                 ); ?>
                 <div class="catalogShort col2">
                     <div class="item imgTopOverflow">

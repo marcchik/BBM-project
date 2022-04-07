@@ -121,7 +121,7 @@ $containerName = 'catalog-top-container';
 			?>
 			<div class="row <?=$rowData['CLASS']?>" data-entity="items-row">
 				<?
-                pr($arResult);
+
 				switch ($rowData['VARIANT'])
 				{
 					case 0:
@@ -219,6 +219,7 @@ $containerName = 'catalog-top-container';
                                 <?
                                 foreach ($rowItems as $item)
                                 {
+
                                     ?>
                                     <div class="item">
                                         <div class="itemNum">
